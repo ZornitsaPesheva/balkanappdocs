@@ -39,3 +39,12 @@ If you want to use the product for free with limited functionality, start with t
 
 <Demo path="orgchartjs/gettingstarted" />
 
+Where:
+
+- **nodes** is the data source. 
+- The **id** property is mandatory.
+- **pid** — the parent ID; represents the connection between two nodes.
+- **nodeBinding** — the `name` property from the data source is bound to the `field_0` UI element from the [template](https://balkan.app/OrgChartJS/Docs/PredefinedTemplates#anaTemplate).
+
+See all available options [here](https://balkan.app/OrgChartJS/API/).
+
