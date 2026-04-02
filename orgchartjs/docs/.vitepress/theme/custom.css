@@ -363,9 +363,17 @@ a.btn-blue:hover {
         width: var(--vp-sidebar-width) !important;
     }
 
+    .VPNavBar .content-body {
+        justify-content: flex-start;
+    }
+
+    .VPNavBar .search {
+        margin-left: 0 !important;
+    }
+
     .VPNavBar.has-sidebar .content,
     .VPNavBar.has-sidebar .divider,
     .VPLocalNav.has-sidebar {
-        padding-left: var(--vp-sidebar-width) !important;
+        padding-left: calc(var(--vp-sidebar-width) + var(--framework-main-right-offset)) !important;
     }
 }
