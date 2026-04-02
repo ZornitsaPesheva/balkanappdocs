@@ -1,0 +1,132 @@
+import { defineConfig } from 'vitepress'
+
+// https://vitepress.dev/reference/site-config
+export default defineConfig({
+  cleanUrls: true,
+  base: "/OrgChartJS/Docs/",
+  title: 'balkanappdocs',
+  description: 'BALKAN App Documentation',
+  appearance: false,
+
+  themeConfig: {
+    search: {
+      provider: 'local'
+    },
+
+    // https://vitepress.dev/reference/default-theme-config
+    nav: [
+      { text: 'Home', link: '/' },
+      { text: 'Examples', link: '/markdown-examples' }
+    ],
+
+    sidebar: {
+      '/': [
+        {
+          items: [
+            { text: 'Getting Started', link: '/GettingStarted' },
+            { text: 'Mobile View', link: '/Mobile' },
+            {
+              text: 'Templates / CSS',
+              collapsed: true,
+              items: [
+                { text: 'Predefined Templates', link: '/PredefinedTemplates' },
+                { text: 'Creating Custom Template', link: '/CreatingCustomTemplate' },
+                { text: 'Multiple Templates', link: '/MultipleTemplates' },
+                { text: 'CSS customization', link: '/CSSCustomization' }
+              ]
+            },
+            {
+              text: 'Fields',
+              collapsed: true,
+              items: [
+                { text: 'Field definitions', link: '/Fields' },
+                { text: 'Text Overflow', link: '/TextOverflow' }
+              ]
+            },
+            {
+              text: 'Links',
+              collapsed: true,
+              items: [
+                { text: 'Main Link', link: '/Link' },
+                { text: 'Slink', link: '/Slink' },
+                { text: 'Clink', link: '/Clink' }
+              ]
+            },
+            {
+              text: 'Assistant / Partner',
+              collapsed: true,
+              items: [
+                { text: 'Assistant', link: '/Assistant' },
+                { text: 'Partner', link: '/Partner' }
+              ]
+            },
+            {
+              text: 'Import / Export',
+              collapsed: true,
+              items: [
+                { text: 'PDF Export', link: '/ExportingPDF' },
+                { text: 'PNG / SVG Export', link: '/ExportingPNG' },
+                { text: 'PowerPoint Export', link: '/ExportingPowerPoint' },
+                { text: 'Other Exports', link: '/ExportingOther' },
+                { text: 'Import', link: '/Importing' }
+              ]
+            },
+            {
+              text: 'UI Elements',
+              collapsed: true,
+              items: [
+                { text: 'Search', link: '/Search' },
+                { text: 'Filter', link: '/Filter' },
+                { text: 'AI', link: '/AI' },
+                { text: 'Controls', link: '/Controls' },
+                { text: 'Menus', link: '/Menus' },
+                { text: 'Edit form', link: '/Edit' },
+                { text: 'Undo / Redo', link: '/UndoRedo' },
+                { text: 'OrgScribe', link: '/OrgScribe' }
+              ]
+            },
+            {
+              text: 'Layout',
+              collapsed: true,
+              items: [
+                { text: 'Sub Trees', link: '/SubTrees' },
+                { text: 'Layout', link: '/Layout' },
+                { text: 'Tree List Layout', link: '/treeListLayout' },
+                { text: 'Scale and Padding', link: '/ScaleAndPadding' },
+                { text: 'Orientation', link: '/Orientation' },
+                { text: 'Navigation', link: '/Navigation' },
+                { text: 'Keyboard Navigation', link: '/KeyNavigation' }
+              ]
+            },
+            {
+              text: 'Features',
+              collapsed: true,
+              items: [
+                { text: 'Expand / Collapse', link: '/ExpandCollapse' },
+                { text: 'Drag and Drop', link: '/DragAndDrop' },
+                { text: 'Minimize / Maximize Node', link: '/MinMax' },
+                { text: 'Dotted Line', link: '/DottedLine' }
+              ]
+            },
+            {
+              text: 'Other',
+              collapsed: true,
+              items: [
+                { text: 'Node (API)', link: '/NodeAPI' },
+                { text: 'State', link: '/State' },
+                { text: 'Performance', link: '/Performance' },
+                { text: 'Server Side Implementation', link: '/GitHub' },
+                { text: 'How to create OrgChart JS programmatically (API)', link: '/CreateProgrammatically' },
+                { text: 'Use Cases', link: '/UseCases' }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+
+    socialLinks: [
+      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
+    ]
+  }
+})
