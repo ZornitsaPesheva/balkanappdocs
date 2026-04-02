@@ -48,3 +48,13 @@ Where:
 
 See all available options [here](https://balkan.app/OrgChartJS/API/).
 
+
+## Update the database {#database}
+
+Use **onAddNode** and **onRemoveNode** methods to add or remove nodes in the database.  
+Use **onUpdateNode** to save changes in the database.
+
+[Here](https://code.balkan.app/update-database#JS) is an example showing how to update the database.
+
+For more details, see our **Server Side Implementation** doc page.
+
