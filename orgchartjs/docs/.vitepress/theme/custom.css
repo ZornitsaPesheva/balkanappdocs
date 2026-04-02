@@ -351,11 +351,12 @@ a.btn-blue:hover {
 
 @media (min-width: 960px) {
     .VPSidebar {
-        width: var(--vp-sidebar-width) !important;
+        padding-left: calc(var(--framework-main-right-offset) + 32px) !important;
+        width: calc(var(--vp-sidebar-width) + var(--framework-main-right-offset)) !important;
     }
 
     .VPContent.has-sidebar {
-        padding-left: var(--vp-sidebar-width) !important;
+        padding-left: calc(var(--vp-sidebar-width) + var(--framework-main-right-offset)) !important;
     }
 
     .VPNavBar.has-sidebar .title {
