@@ -5,7 +5,7 @@ export default defineConfig({
   cleanUrls: true,
   // base: "/OrgChartJS/Docs/",
   base: "/",
-  title: 'balkanappdocs',
+  title: 'Docs | BALKAN OrgChart JS',
   description: 'BALKAN App Documentation',
   appearance: false,
   head: [['link', { rel: 'icon', href: '/favicon.ico' }]],
