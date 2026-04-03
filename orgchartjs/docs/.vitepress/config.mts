@@ -4,6 +4,7 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   cleanUrls: true,
   // base: "/OrgChartJS/Docs/",
+  base: "/",
   title: 'balkanappdocs',
   description: 'BALKAN App Documentation',
   appearance: false,
