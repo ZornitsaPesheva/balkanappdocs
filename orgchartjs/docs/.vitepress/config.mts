@@ -8,6 +8,7 @@ export default defineConfig({
   title: 'balkanappdocs',
   description: 'BALKAN App Documentation',
   appearance: false,
+  head: [['link', { rel: 'icon', href: '/favicon.ico' }]],
 
   themeConfig: {
     search: {
