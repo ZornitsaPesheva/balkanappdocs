@@ -10,6 +10,7 @@ const props = withDefaults(
     slug?: string
     title?: string
     height?: number | string
+    width?: number | string
   }>(),
   {
     title: 'OrgChart JS demo',
@@ -25,13 +26,21 @@ const normalizedPath = computed(() => {
 const src = computed(() => `${BASE_URL}${normalizedPath.value}`)
 const editSrc = computed(() => `${EDIT_BASE_URL}${normalizedPath.value}`)
 
-const frameHeight = computed(() =>
-  typeof props.height === 'number' ? `${props.height}px` : props.height
-)
+const normalizeSize = (value?: number | string) => {
+  if (value == null) return undefined
+  if (typeof value === 'number') return `${value}px`
+
+  const trimmed = value.trim()
+  return /^\d+(\.\d+)?$/.test(trimmed) ? `${trimmed}px` : trimmed
+}
+
+const frameHeight = computed(() => normalizeSize(props.height))
+const frameWidth = computed(() => normalizeSize(props.width))
+const wrapperStyle = computed(() => ({ width: frameWidth.value }))
 </script>
 
 <template>
-  <div class="demo-frame-wrapper">
+  <div class="demo-frame-wrapper" :style="wrapperStyle">
     <div class="demo-frame-header">
       <img
         class="demo-code-icon"
