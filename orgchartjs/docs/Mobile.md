@@ -3,7 +3,7 @@ outline: deep
 head:
   - - meta
     - property: og:image
-      content: /Content/img/mobile.png
+      content: http://balkan.app/Content/img/mobile.png
 ---
 
 # Mobile View {#Mobile}
