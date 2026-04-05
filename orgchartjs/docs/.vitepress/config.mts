@@ -31,25 +31,25 @@ export default defineConfig({
               text: 'Templates / CSS',
               collapsed: true,
               items: [
-                { text: 'Predefined Templates <span class="badge-ce">CE</span>', link: '/PredefinedTemplates' },
-                { text: 'Custom Templates <span class="badge-ce">CE</span>', link: '/CreatingCustomTemplate' },
-                { text: 'Multiple Templates <span class="badge-ce">CE</span>', link: '/MultipleTemplates' },
-                { text: 'CSS customization <span class="badge-ce">CE</span>', link: '/CSSCustomization' }
+                { text: 'Predefined Templates <span class="badge-ce" title="Available in community edition">CE</span>', link: '/PredefinedTemplates' },
+                { text: 'Custom Templates <span class="badge-ce" title="Available in community edition">CE</span>', link: '/CreatingCustomTemplate' },
+                { text: 'Multiple Templates <span class="badge-ce" title="Available in community edition">CE</span>', link: '/MultipleTemplates' },
+                { text: 'CSS customization <span class="badge-ce" title="Available in community edition">CE</span>', link: '/CSSCustomization' }
               ]
             },
             {
               text: 'Fields',
               collapsed: true,
               items: [
-                { text: 'Field definitions <span class="badge-ce">CE</span>', link: '/Fields' },
-                { text: 'Text Overflow <span class="badge-ce">CE</span>', link: '/TextOverFlow' }
+                { text: 'Field definitions <span class="badge-ce" title="Available in community edition">CE</span>', link: '/Fields' },
+                { text: 'Text Overflow <span class="badge-ce" title="Available in community edition">CE</span>', link: '/TextOverFlow' }
               ]
             },
             {
               text: 'Links',
               collapsed: true,
               items: [
-                { text: 'Main Link <span class="badge-ce">CE</span>', link: '/Link' },
+                { text: 'Main Link <span class="badge-ce" title="Available in community edition">CE</span>', link: '/Link' },
                 { text: 'Slink', link: '/Slink' },
                 { text: 'Clink', link: '/Clink' }
               ]
