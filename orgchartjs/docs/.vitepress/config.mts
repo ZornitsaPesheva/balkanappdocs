@@ -41,15 +41,15 @@ export default defineConfig({
               text: 'Fields',
               collapsed: true,
               items: [
-                { text: 'Field definitions', link: '/Fields' },
-                { text: 'Text Overflow', link: '/TextOverflow' }
+                { text: 'Field definitions <span class="badge-ce">CE</span>', link: '/Fields' },
+                { text: 'Text Overflow <span class="badge-ce">CE</span>', link: '/TextOverflow' }
               ]
             },
             {
               text: 'Links',
               collapsed: true,
               items: [
-                { text: 'Main Link', link: '/Link' },
+                { text: 'Main Link <span class="badge-ce">CE</span>', link: '/Link' },
                 { text: 'Slink', link: '/Slink' },
                 { text: 'Clink', link: '/Clink' }
               ]
