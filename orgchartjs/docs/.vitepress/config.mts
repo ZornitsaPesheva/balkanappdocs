@@ -115,6 +115,7 @@ export default defineConfig({
               collapsed: true,
               items: [
                 { text: 'Node (API)', link: '/NodeAPI' },
+                { text: 'Tags', link: '/Tags' },
                 { text: 'State', link: '/State' },
                 { text: 'Performance', link: '/Performance' },
                 { text: 'Server Side Implementation', link: '/GitHub' },
