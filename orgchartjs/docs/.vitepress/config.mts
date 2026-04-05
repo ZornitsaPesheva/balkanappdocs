@@ -42,7 +42,7 @@ export default defineConfig({
               collapsed: true,
               items: [
                 { text: 'Field definitions <span class="badge-ce">CE</span>', link: '/Fields' },
-                { text: 'Text Overflow <span class="badge-ce">CE</span>', link: '/TextOverflow' }
+                { text: 'Text Overflow <span class="badge-ce">CE</span>', link: '/TextOverFlow' }
               ]
             },
             {
