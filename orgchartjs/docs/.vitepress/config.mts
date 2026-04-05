@@ -31,7 +31,7 @@ export default defineConfig({
               text: 'Templates / CSS',
               collapsed: true,
               items: [
-                { text: 'Predefined Templates', link: '/PredefinedTemplates' },
+                { text: 'Predefined Templates <span class="badge-ce">CE</span>', link: '/PredefinedTemplates' },
                 { text: 'Creating Custom Template', link: '/CreatingCustomTemplate' },
                 { text: 'Multiple Templates', link: '/MultipleTemplates' },
                 { text: 'CSS customization', link: '/CSSCustomization' }
