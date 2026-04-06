@@ -9,6 +9,13 @@ head:
 
 # S links
 
+<a target="_blank" href="https://www.youtube.com/watch?v=jSj8ShvG1vc" rel="noopener noreferrer" class="yt-hover-link">
+    <div class="yt-hover-thumb">
+        <img class="tn" src="https://img.youtube.com/vi/jSj8ShvG1vc/mqdefault.jpg" alt="OrgChart JS S Links" width="150" height="80">
+        <img class="yt" src="https://balkan.app/Content/img/youtube.jpg" alt="OrgChart JS S Links" width="150" height="80">
+    </div>
+</a>
+
 
 **slink** stands for second links.
 
