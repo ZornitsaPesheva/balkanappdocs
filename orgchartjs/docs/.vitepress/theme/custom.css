@@ -391,3 +391,55 @@ a.btn-blue:hover {
   border-radius: 4px;
   vertical-align: middle;
 }
+
+/* YouTube thumbnail hover card in docs pages */
+.yt-hover-link {
+    float: right;
+    display: block;
+    position: relative;
+    width: 150px;
+    height: 80px;
+    margin: 0 0 20px 20px;
+}
+
+.yt-hover-thumb {
+    position: relative;
+    display: block;
+    width: 150px;
+    height: 80px;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.yt-hover-thumb > img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 150px;
+    height: 80px;
+    max-width: none;
+    display: block;
+    margin: 0 !important;
+    padding: 0;
+    border: 0;
+    object-fit: cover;
+    transition: opacity 0.15s ease-in-out;
+}
+
+.yt-hover-thumb > img:first-child {
+    opacity: 1;
+}
+
+.yt-hover-thumb > img:last-child {
+    opacity: 0;
+}
+
+.yt-hover-link:hover .yt-hover-thumb > img:first-child,
+.yt-hover-link:focus-visible .yt-hover-thumb > img:first-child {
+    opacity: 0;
+}
+
+.yt-hover-link:hover .yt-hover-thumb > img:last-child,
+.yt-hover-link:focus-visible .yt-hover-thumb > img:last-child {
+    opacity: 1;
+}

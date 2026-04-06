@@ -9,8 +9,11 @@ head:
 
 # C links
 
-<a target="_blank" href="https://www.youtube.com/watch?v=0Sdbn9Ld4Po" style="float: right; margin-left: 20px;">
-    <img src="https://img.youtube.com/vi/0Sdbn9Ld4Po/mqdefault.jpg" alt="OrgChart JS Assistant" width="250">
+<a target="_blank" href="https://www.youtube.com/watch?v=0Sdbn9Ld4Po" rel="noopener noreferrer" class="yt-hover-link">
+    <div class="yt-hover-thumb">
+        <img class="tn" src="https://img.youtube.com/vi/0Sdbn9Ld4Po/mqdefault.jpg" alt="OrgChart JS C Links" width="150" height="80">
+        <img class="yt" src="https://balkan.app/Content/img/youtube.jpg" alt="OrgChart JS C Links" width="150" height="80">
+    </div>
 </a>
 
 Clink stands for curved links
