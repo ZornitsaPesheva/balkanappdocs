@@ -84,13 +84,13 @@
           <div class="language-html active">
             <span class="lang">html</span>
             <pre class="shiki shiki-themes github-light github-dark" tabindex="0"><code><span class="line">&lt;script type="module"&gt;</span>
-<span class="line">  import OrgChart from "https://cdn.balkan.app/orgchart.js";</span>
+<span class="line">  import OrgChart from "https://cdn.balkan.app/orgchart.esm.js";</span>
 <span class="line">&lt;/script&gt;</span></code></pre>
           </div>
           <div class="language-js">
             <span class="lang">html</span>
             <pre class="shiki shiki-themes github-light github-dark" tabindex="0"><code><span class="line">&lt;script type="module"&gt;</span>
-<span class="line">  import OrgChart from "https://cdn.balkan.app/orgchart-community.js";</span>
+<span class="line">  import OrgChart from "https://cdn.balkan.app/orgchart-community.esm.js";</span>
 <span class="line">&lt;/script&gt;</span></code></pre>
           </div>
         </div>
@@ -116,13 +116,13 @@
           <div class="language-html active">
             <span class="lang">html</span>
             <pre class="shiki shiki-themes github-light github-dark" tabindex="0"><code><span class="line">&lt;script type="module"&gt;</span>
-<span class="line">  import OrgChart from "./path/to/orgchart.js";</span>
+<span class="line">  import OrgChart from "./path/to/orgchart.esm.js";</span>
 <span class="line">&lt;/script&gt;</span></code></pre>
           </div>
           <div class="language-js">
             <span class="lang">html</span>
             <pre class="shiki shiki-themes github-light github-dark" tabindex="0"><code><span class="line">&lt;script type="module"&gt;</span>
-<span class="line">  import OrgChart from "./path/to/orgchart-community.js";</span>
+<span class="line">  import OrgChart from "./path/to/orgchart-community.esm.js";</span>
 <span class="line">&lt;/script&gt;</span></code></pre>
           </div>
         </div>
