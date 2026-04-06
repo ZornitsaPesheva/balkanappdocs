@@ -22,7 +22,6 @@ head:
 You can specify two or more second links in one chart.  
 With slinks you can show multiple parents or any other relation.
 
----
 
 ## Slink options
 
@@ -40,11 +39,10 @@ slinks: [
 Define **label** to add text in the middle of the slink.
 Its position depends on `labelPosition` (`start`, `middle`, `end`).
 
-Add **template** to style the slink.
+Add a **template** to style the slink.
 
 <Demo path="org-chart-js/s-link" />
 
----
 
 ## Slink methods
 
@@ -52,7 +50,7 @@ Add **template** to style the slink.
 chart.addSlink(from, to, label, template)
 ```
 
-```javascript id="8q9p6z"
+```javascript
 chart.removeSlink(from, to)
 ```
 

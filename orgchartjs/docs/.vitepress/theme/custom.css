@@ -400,6 +400,7 @@ a.btn-blue:hover {
     width: 150px;
     height: 80px;
     margin: 0 0 20px 20px;
+    border-radius: 7px;
 }
 
 .yt-hover-thumb {
@@ -409,6 +410,8 @@ a.btn-blue:hover {
     height: 80px;
     overflow: hidden;
     line-height: 0;
+    border-radius: 7px;
+
 }
 
 .yt-hover-thumb > img {
