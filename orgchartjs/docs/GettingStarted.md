@@ -6,7 +6,7 @@ head:
       content: https://balkan.app/Content/img/oc.png
   - - meta
     - property: og:title
-    - content: Getting Started | OrgChart JS
+      content: Getting Started | OrgChart JS
 
 ---
 
