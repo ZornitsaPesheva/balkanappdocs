@@ -104,22 +104,22 @@ export default defineConfig({
               text: 'Features',
               collapsed: true,
               items: [
-                { text: 'Expand / Collapse', link: '/ExpandCollapse' },
+                { text: 'Expand / Collapse <span class="badge-ce" title="Available in community edition">CE</span>', link: '/ExpandCollapse' },
                 { text: 'Drag and Drop', link: '/DragAndDrop' },
-                { text: 'Minimize / Maximize Node', link: '/MinMax' },
-                { text: 'Dotted Line', link: '/DottedLine' }
+                { text: 'Minimize / Maximize <span class="badge-ce" title="Available in community edition">CE</span>', link: '/MinMax' },
+                { text: 'Dotted Line <span class="badge-ce" title="Available in community edition">CE</span>', link: '/DottedLine' }
               ]
             },
             {
               text: 'Other',
               collapsed: true,
               items: [
-                { text: 'Node (API)', link: '/NodeAPI' },
-                { text: 'Tags', link: '/Tags' },
+                { text: 'Node (API) <span class="badge-ce" title="Available in community edition">CE</span>', link: '/NodeAPI' },
+                { text: 'Tags <span class="badge-ce" title="Available in community edition">CE</span>', link: '/Tags' },
                 { text: 'State', link: '/State' },
-                { text: 'Performance', link: '/Performance' },
-                { text: 'Server Side Implementation', link: '/GitHub' },
-                { text: 'How to create OrgChart JS programmatically (API)', link: '/CreateProgrammatically' },
+                { text: 'Performance <span class="badge-ce" title="Available in community edition">CE</span>', link: '/Performance' },
+                { text: 'Server Side Examples <span class="badge-ce" title="Available in community edition">CE</span>', link: '/GitHub' },
+                { text: 'How to create OrgChart JS programmatically (API) <span class="badge-ce" title="Available in community edition">CE</span>', link: '/CreateProgrammatically' },
                 { text: 'Use Cases', link: '/UseCases' }
               ]
             }
