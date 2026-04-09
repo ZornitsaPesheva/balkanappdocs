@@ -97,7 +97,7 @@ export default defineConfig({
                 { text: 'Scale and Padding', link: '/ScaleAndPadding' },
                 { text: 'Orientation', link: '/Orientation' },
                 { text: 'Navigation', link: '/Navigation' },
-                { text: 'Keyboard Navigation', link: '/KeyNavigation' }
+                { text: 'Keyboard Navigation <span class="badge-ce" title="Available in community edition">CE</span>', link: '/KeyNavigation' }
               ]
             },
             {
