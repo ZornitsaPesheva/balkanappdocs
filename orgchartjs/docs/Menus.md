@@ -8,15 +8,18 @@ head:
 
 # Menus
 
-
-## OrgChart has these menus
-
 <a target="_blank" href="https://www.youtube.com/watch?v=fq5molRNNto&t=5s" rel="noopener noreferrer" class="yt-hover-link">
   <div class="yt-hover-thumb">
-    <img class="tn" src="https://img.youtube.com/vi/fq5molRNNto/mqdefault.jpg" alt="OrgChart JS Assistant" width="150" height="80">
-    <img class="yt" src="https://balkan.app/Content/img/youtube.jpg" alt="OrgChart JS Assistant" width="150" height="80">
+    <img class="tn" src="https://img.youtube.com/vi/fq5molRNNto/mqdefault.jpg" alt="Menus" width="150" height="80">
+    <img class="yt" src="https://balkan.app/Content/img/youtube.jpg" alt="Menus" width="150" height="80">
   </div>
 </a>
+
+
+Use built-in menus to quickly access actions like adding, editing, or removing nodes, making chart management fast and intuitive.
+
+
+## OrgChart has these menus
 
 1. **menu** – top right corner  
 2. **nodeMenu** – button inside the node  

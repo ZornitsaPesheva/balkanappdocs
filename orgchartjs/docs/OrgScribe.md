@@ -11,8 +11,8 @@ head:
 
 <a target="_blank" href="https://www.youtube.com/watch?v=uGmlbLWEJjA" rel="noopener noreferrer" class="yt-hover-link">
   <div class="yt-hover-thumb">
-    <img class="tn" src="https://img.youtube.com/vi/uGmlbLWEJjA/mqdefault.jpg" alt="OrgChart JS Assistant" width="150" height="80">
-    <img class="yt" src="https://balkan.app/Content/img/youtube.jpg" alt="OrgChart JS Assistant" width="150" height="80">
+    <img class="tn" src="https://img.youtube.com/vi/uGmlbLWEJjA/mqdefault.jpg" alt="OrgScribe" width="150" height="80">
+    <img class="yt" src="https://balkan.app/Content/img/youtube.jpg" alt="OrgScribe" width="150" height="80">
   </div>
 </a>
 
