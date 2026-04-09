@@ -8,8 +8,16 @@ export default defineConfig({
   title: 'BALKAN OrgChart JS - JavaScript Org Chart Library | Docs',
   description: 'BALKAN OrgChart JS documentation for building interactive organizational charts with JavaScript. Learn API, features, templates, and customization.',
   appearance: false,
-  head: [['link', { rel: 'icon', href: '/favicon.ico' }]],
-
+  head: [
+    ['link', { rel: 'icon', href: '/favicon.ico' }],
+    // ['link', { rel: 'icon', type: 'image/png', href: '/favicon.png' }],
+    ['meta', { property: 'og:type', content: 'website' }],
+    ['meta', { property: 'og:title', content: 'BALKAN OrgChart JS - JavaScript Org Chart Library | Docs' }],
+    ['meta', { property: 'og:description', content: 'BALKAN OrgChart JS documentation for building interactive organizational charts with JavaScript. Learn API, features, templates, and customization.' }],
+    ['meta', { property: 'og:image', content: 'https://balkan.app/Content/img/screenshot-ba.png' }],
+    ['meta', { property: 'og:url', content: '/' }]
+    // ['meta', { name: 'robots', content: 'noindex, nofollow' }]  
+  ],
   themeConfig: {
     search: {
       provider: 'local'
