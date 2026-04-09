@@ -44,7 +44,7 @@ Auto scales the chart so all nodes are visible horizontally (fit to width).
 
 ## Controls
 
-You can use [Controls](~/OrgChartJS/Docs/Controls) to adjust zoom:
+You can use [Controls](/Controls) to adjust zoom:
 
 <Demo path="orgchart-js/zoom" />
 

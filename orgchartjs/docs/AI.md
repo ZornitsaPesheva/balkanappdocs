@@ -113,7 +113,7 @@ OrgChart.AI_SYSTEM_MESSAGES = [
 ::: warning Server JS
 
 * The data is not used for training the AI model
-* If you don’t want to send data, install Server [JS locally](/serverjs)
+* If you don’t want to send data, install [Server JS](/ServerJS) locally.
   :::
 
 ## Server JS Installation
