@@ -5,8 +5,8 @@ export default defineConfig({
   cleanUrls: true,
   // base: "/OrgChartJS/Docs/",
   base: "/",
-  title: 'Docs | BALKAN OrgChart JS',
-  description: 'BALKAN App Documentation',
+  title: 'BALKAN OrgChart JS - JavaScript Org Chart Library | Docs',
+  description: 'BALKAN OrgChart JS documentation for building interactive organizational charts with JavaScript. Learn API, features, templates, and customization.',
   appearance: false,
   head: [['link', { rel: 'icon', href: '/favicon.ico' }]],
 
