@@ -3,7 +3,7 @@ outline: deep
 head:
   - - meta
     - property: og:title
-      content: OrgChart JS
+      content: BALKAN OrgChart JS - JavaScript Org Chart Library | Docs
 ---
 
 <!-- ---
