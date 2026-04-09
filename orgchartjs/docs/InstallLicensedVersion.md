@@ -3,7 +3,7 @@ outline: deep
 head:
   - - meta
     - property: og:image
-      content: https://balkan.app/Content/img/mobile.png
+      content: https://balkan.app/Content/img/oc.png
   - - meta
     - property: og:title
       content: Licensed version installation | OrgChart JS

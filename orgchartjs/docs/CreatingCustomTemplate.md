@@ -3,7 +3,7 @@ outline: deep
 head:
   - - meta
     - property: og:image
-      content: https://code.balkan.app/screenshot/org-chart-js/olivia
+      content: https://balkan.app/Content/img/oc.png
   - - meta
     - property: og:title
       content: Crating Custom Templates | OrgChart JS

@@ -3,7 +3,7 @@ outline: deep
 head:
   - - meta
     - property: og:image
-      content: http://balkan.app/Content/img/mobile.png
+      content: https://balkan.app/Content/img/oc.png
   - - meta
     - property: og:title
       content: Undo/Redo | OrgChart JS

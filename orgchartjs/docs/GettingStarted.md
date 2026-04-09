@@ -2,9 +2,14 @@
 outline: deep
 head:
   - - meta
+    - property: og:image
+      content: https://balkan.app/Content/img/oc.png
+    - - meta
     - property: og:title
-      content: Getting Started | OrgChart JS
+    - content: Getting Started | OrgChart JS
+
 ---
+
 
 
 # Getting Started
