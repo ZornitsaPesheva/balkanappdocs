@@ -4,7 +4,11 @@ head:
   - - meta
     - property: og:image
       content: https://code.balkan.app/screenshot/org-chart-js/olivia
+  - - meta
+    - property: og:title
+      content: Multiple Templates in one chart | OrgChart JS
 ---
+
 
 # Multiple Templates in one chart
 
@@ -30,6 +34,7 @@ tags: {
 Now all nodes with the `Management` tag will use the `rony` template for nodes, links, add/remove buttons, expand/collapse buttons, and ripple.
 
 <Demo path="org-chart-js/multiple-templates" />
+
 
 
 

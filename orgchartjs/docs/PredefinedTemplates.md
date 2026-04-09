@@ -4,7 +4,11 @@ head:
   - - meta
     - property: og:image
       content: https://code.balkan.app/screenshot/org-chart-js/olivia
+  - - meta
+    - property: og:title
+      content: Predefined Templates | OrgChart JS
 ---
+
 
 # Predefined Templates
 
@@ -1122,5 +1126,6 @@ OrgChart.templates.base.editFormHeaderColor = '#039BE5';
 OrgChart.templates.base.treeListMaxHeight = 500;
 ```
 :::
+
 
 

@@ -4,7 +4,11 @@ head:
   - - meta
     - property: og:image
       content: http://balkan.app/Content/img/mobile.png
+  - - meta
+    - property: og:title
+      content: PDF Export | OrgChart JS
 ---
+
 
 # PDF Export
 
@@ -351,3 +355,4 @@ The following methods were removed in version 9. Update your implementation to u
 | `exportPDFFromCharts` | [`exportToPDF`](#export-by-pages) with `pages` option |
 | `OrgChart.pdfPrevUI` | [`chart.pdfPreviewUI.show`](#add-pages-programmatically) |
 :::
+

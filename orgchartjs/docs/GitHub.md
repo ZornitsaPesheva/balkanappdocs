@@ -4,7 +4,11 @@ head:
   - - meta
     - property: og:image
       content: http://balkan.app/Content/img/mobile.png
+  - - meta
+    - property: og:title
+      content: GitHub Demos | OrgChart JS
 ---
+
 
 # GitHub Demos
 
@@ -30,4 +34,5 @@ head:
 ## WordPress
 
 - [Download and install a Plugin](https://github.com/ZornitsaPesheva/wp-orgchart-cdn)  
+
 

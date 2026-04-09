@@ -4,7 +4,11 @@ head:
   - - meta
     - property: og:image
       content: http://balkan.app/Content/img/mobile.png
+  - - meta
+    - property: og:title
+      content: OrgScribe | OrgChart JS
 ---
+
 
 
 # OrgScribe
@@ -86,6 +90,7 @@ OrgChart.ORGSCRIBE_OFFSET = "#";
 ```
 
 <Demo path="orgchart-js/orgscribe-offset" />
+
 
 
 

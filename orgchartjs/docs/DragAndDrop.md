@@ -4,7 +4,11 @@ head:
   - - meta
     - property: og:image
       content: http://balkan.app/Content/img/mobile.png
+  - - meta
+    - property: og:title
+      content: Drag and Drop | OrgChart JS
 ---
+
 
 # Drag and Drop
 
@@ -61,3 +65,4 @@ You can test the functionality in this example:
 
 <Demo path="how-to-use-draggable-option" />
 ```
+

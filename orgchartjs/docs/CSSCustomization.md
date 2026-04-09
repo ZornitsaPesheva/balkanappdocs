@@ -4,7 +4,11 @@ head:
   - - meta
     - property: og:image
       content: https://code.balkan.app/screenshot/org-chart-js/olivia
+  - - meta
+    - property: og:title
+      content: How to Use Custom CSS | OrgChart JS
 ---
+
 
 # How to Use Custom CSS
 

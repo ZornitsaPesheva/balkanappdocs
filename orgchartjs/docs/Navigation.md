@@ -4,7 +4,11 @@ head:
   - - meta
     - property: og:image
       content: http://balkan.app/Content/img/mobile.png
+  - - meta
+    - property: og:title
+      content: Navigation | OrgChart JS
 ---
+
 
 
 # Navigation
@@ -154,3 +158,4 @@ You can use the **moveNodesToVisibleArea** method to move an array of nodes to t
 Here is a code demo, where we move nodes with ids 10 and 12 in the visible area:
 
 <Demo path="org-chart-js/move-nodes-to-visible-area" />
+

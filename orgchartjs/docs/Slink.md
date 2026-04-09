@@ -4,7 +4,11 @@ head:
   - - meta
     - property: og:image
       content: http://balkan.app/Content/img/mobile.png
+  - - meta
+    - property: og:title
+      content: S links | OrgChart JS
 ---
+
 
 
 # S links
@@ -146,4 +150,5 @@ Example:
 Slinks are not supported between different trees and subtrees, although they may work in some cases.
 You can use Clinks instead.
 :::
+
 

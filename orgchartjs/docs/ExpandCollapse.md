@@ -4,7 +4,11 @@ head:
   - - meta
     - property: og:image
       content: http://balkan.app/Content/img/mobile.png
+  - - meta
+    - property: og:title
+      content: Expand/Collapse | OrgChart JS
 ---
+
 
 # Expand/Collapse
 
@@ -216,3 +220,4 @@ OrgChart.templates.ana.up =
     `<rect x="20" y="-25" width="30" height="17" fill="#aeaeae" rx="3" ry="3"></rect>
     <line x1="35" x2="35" y1="0" y2="-8" stroke="#aeaeae" stroke-width="1"></line>`;
 ```
+

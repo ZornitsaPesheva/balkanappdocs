@@ -4,7 +4,11 @@ head:
   - - meta
     - property: og:image
       content: http://balkan.app/Content/img/mobile.png
+  - - meta
+    - property: og:title
+      content: Partner | OrgChart JS
 ---
+
 
 # Partner
 
@@ -97,4 +101,5 @@ chart.on('render-link', function(sender, args){
 <Demo path="org-chart-js/partners" />
 
 Partner nodes are very useful for family trees. See the [Royal Family Tree](https://balkan.app/OrgChartJS/Demos/RoyalFamilyTree) demo.
+
 

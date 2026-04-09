@@ -4,7 +4,11 @@ head:
   - - meta
     - property: og:image
       content: http://balkan.app/Content/img/mobile.png
+  - - meta
+    - property: og:title
+      content: Undo/Redo | OrgChart JS
 ---
+
 
 # Undo/Redo
 
@@ -73,6 +77,7 @@ Here is a code demo:
 
 <Demo path="org-chart-js/change-the-ui-if-undo-redo-buttons" />
 ```
+
 
 
 

@@ -4,7 +4,11 @@ head:
   - - meta
     - property: og:image
       content: http://balkan.app/Content/img/mobile.png
+  - - meta
+    - property: og:title
+      content: Controls | OrgChart JS
 ---
+
 
 
 # Controls
@@ -141,3 +145,4 @@ The icons can be SVG or HTML.
 Example with animated / material icons:
 
 <Demo path="orgchart-js/control-icons" />
+

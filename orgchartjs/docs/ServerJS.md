@@ -4,7 +4,11 @@ head:
   - - meta
     - property: og:image
       content: https://balkan.app/Content/img/mobile.png
+  - - meta
+    - property: og:title
+      content: Server JS Installation | OrgChart JS
 ---
+
 
 # Server JS Installation
 
@@ -134,3 +138,4 @@ var chart = new OrgChart('#tree', {
     serverUrl: "https://YourWebsite.com"
 });
 ```
+

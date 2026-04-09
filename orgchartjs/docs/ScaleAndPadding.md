@@ -4,7 +4,11 @@ head:
   - - meta
     - property: og:image
       content: http://balkan.app/Content/img/mobile.png
+  - - meta
+    - property: og:title
+      content: Scale and Padding | OrgChart JS
 ---
+
 
 # Scale and Padding
 
@@ -81,3 +85,4 @@ chart.draw();
 ```
 
 You can also apply different separation settings for specific groups (nodes) and their subtrees.
+

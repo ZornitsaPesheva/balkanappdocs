@@ -4,7 +4,11 @@ head:
   - - meta
     - property: og:image
       content: http://balkan.app/Content/img/mobile.png
+  - - meta
+    - property: og:title
+      content: Assistant | OrgChart JS
 ---
+
 
 
 # Assistant
@@ -53,3 +57,4 @@ Default value is `100`.
 
 <Demo path="org-chart-js/assistant-separation" />
 ```
+

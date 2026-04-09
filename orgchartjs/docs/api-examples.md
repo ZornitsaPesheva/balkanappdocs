@@ -1,6 +1,11 @@
 ---
 outline: deep
+head:
+  - - meta
+    - property: og:title
+      content: Runtime API Examples | OrgChart JS
 ---
+
 
 # Runtime API Examples
 
@@ -47,3 +52,4 @@ const { site, theme, page, frontmatter } = useData()
 ## More
 
 Check out the documentation for the [full list of runtime APIs](https://vitepress.dev/reference/runtime-api#usedata).
+

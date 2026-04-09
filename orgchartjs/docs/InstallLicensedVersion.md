@@ -4,7 +4,11 @@ head:
   - - meta
     - property: og:image
       content: https://balkan.app/Content/img/mobile.png
+  - - meta
+    - property: og:title
+      content: Licensed version installation | OrgChart JS
 ---
+
 
 # Licensed version installation
 
@@ -29,4 +33,5 @@ console.log(OrgChart.isTrial())
 > ⚠️ **Warning!**
 > If you are using any old framework version, you may need
 > [this](https://balkan.app/OrgChartJS/Docs/react) installation guide.
+
 

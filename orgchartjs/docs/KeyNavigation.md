@@ -4,7 +4,11 @@ head:
   - - meta
     - property: og:image
       content: http://balkan.app/Content/img/mobile.png
+  - - meta
+    - property: og:title
+      content: Keyboard Navigation | OrgChart JS
 ---
+
 
 # Keyboard Navigation
 
@@ -104,4 +108,5 @@ You need to install the
 [Screen reader](https://chrome.google.com/webstore/detail/screen-reader/kgejglhpjiefppelpmljglcjbhoiplfn) extension for the following example:
 
 <Demo path="org-chart-js/screen-reader" />
+
 

@@ -4,7 +4,11 @@ head:
   - - meta
     - property: og:image
       content: http://balkan.app/Content/img/mobile.png
+  - - meta
+    - property: og:title
+      content: PNG/SVG Export | OrgChart JS
 ---
+
 
 # PNG/SVG Export
 
@@ -325,3 +329,4 @@ The following methods were removed in version 9. Update your implementation to u
 | `exportSVG` | [`exportToSVG`](#export-options) |
 | `exportPNGProfile` | [`exportToPNG`](#export-by-pages) with `pages` and `isProfile: true` option |
 :::
+

@@ -4,7 +4,11 @@ head:
   - - meta
     - property: og:image
       content: http://balkan.app/Content/img/mobile.png
+  - - meta
+    - property: og:title
+      content: Import | OrgChart JS
 ---
+
 
 # Import
 
@@ -51,4 +55,5 @@ menu: {
 This is a demo for importing. You can export, edit the file, and then import it again.
 
 <Demo path="org-chart-js/importing" />
+
 

@@ -4,7 +4,11 @@ head:
   - - meta
     - property: og:image
       content: https://code.balkan.app/screenshot/org-chart-js/olivia
+  - - meta
+    - property: og:title
+      content: Crating Custom Templates | OrgChart JS
 ---
+
 
 # Crating Custom Templates
 
@@ -294,3 +298,4 @@ We would be happy if you share your template with us. Please send it as a jsfidd
 
 ```
 ```
+

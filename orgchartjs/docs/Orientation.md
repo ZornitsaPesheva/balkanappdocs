@@ -4,7 +4,11 @@ head:
   - - meta
     - property: og:image
       content: http://balkan.app/Content/img/mobile.png
+  - - meta
+    - property: og:title
+      content: Orientation | OrgChart JS
 ---
+
 
 
 # Orientation
@@ -42,3 +46,4 @@ There are 8 different orientations:
 ## OrgChart.orientation.left_top
 
 <Demo path="org-chart-js/left_top" />
+

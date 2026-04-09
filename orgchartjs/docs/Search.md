@@ -4,7 +4,11 @@ head:
   - - meta
     - property: og:image
       content: http://balkan.app/Content/img/mobile.png
+  - - meta
+    - property: og:title
+      content: Search | OrgChart JS
 ---
+
 
 # Search
 
@@ -173,6 +177,7 @@ In the example below we are using:
 Here is the code demo:
 
 <Demo path="org-chart-js/searchui-customization" height="900px" />
+
 
 
 

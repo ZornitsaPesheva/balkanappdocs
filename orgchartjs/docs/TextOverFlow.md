@@ -4,7 +4,11 @@ head:
   - - meta
     - property: og:image
       content: http://balkan.app/Content/img/mobile.png
+  - - meta
+    - property: og:title
+      content: Text Overflow | OrgChart JS
 ---
+
 
 # Text Overflow
 
@@ -89,4 +93,5 @@ OrgChart.templates.olivia.field_0 = function (node, data, template, config, valu
 Here is an example of dynamic group field:
 
 <Demo path="orgchart-js/dynamic-group-field-text-width" />
+
 

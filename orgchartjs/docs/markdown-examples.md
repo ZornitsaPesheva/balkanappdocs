@@ -1,3 +1,11 @@
+---
+outline: deep
+head:
+  - - meta
+    - property: og:title
+      content: Markdown Extension Examples | OrgChart JS
+---
+
 # Markdown Extension Examples
 
 This page demonstrates some of the built-in markdown extensions provided by VitePress.

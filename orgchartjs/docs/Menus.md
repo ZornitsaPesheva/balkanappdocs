@@ -4,7 +4,11 @@ head:
   - - meta
     - property: og:image
       content: http://balkan.app/Content/img/mobile.png
+  - - meta
+    - property: og:title
+      content: Menus | OrgChart JS
 ---
+
 
 # Menus
 
@@ -293,3 +297,4 @@ tags:{
 ```
 
 <Demo path="org-chart-js/custom-node-circle-menu" />
+

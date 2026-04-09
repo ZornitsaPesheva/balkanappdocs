@@ -1,3 +1,11 @@
+---
+outline: deep
+head:
+  - - meta
+    - property: og:title
+      content: OrgChart JS
+---
+
 <!-- ---
 # https://vitepress.dev/reference/default-theme-home-page
 layout: home

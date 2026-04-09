@@ -4,7 +4,11 @@ head:
   - - meta
     - property: og:image
       content: http://balkan.app/Content/img/mobile.png
+  - - meta
+    - property: og:title
+      content: Tree List Layout | OrgChart JS
 ---
+
 
 # Tree List Layout
 
@@ -163,4 +167,5 @@ Group nodes by field values:
 Complex example:
 
 <Demo path="orgchart-js/hr" />
+
 

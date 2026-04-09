@@ -4,7 +4,11 @@ head:
   - - meta
     - property: og:image
       content: https://balkan.app/Content/img/mobile.png
+  - - meta
+    - property: og:title
+      content: How you can use OrgChart JS | OrgChart JS
 ---
+
 
 # How you can use OrgChart JS
 
@@ -61,6 +65,7 @@ head:
     </td>
   </tr>
 </table>
+
 
 
 

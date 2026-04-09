@@ -4,7 +4,11 @@ head:
   - - meta
     - property: og:image
       content: http://balkan.app/Content/img/mobile.png
+  - - meta
+    - property: og:title
+      content: Performance | OrgChart JS
 ---
+
 
 # Performance
 
@@ -95,4 +99,5 @@ Where:
 25000 nodes chart:
 
 <Demo path="i-expect-all-22k-nodes-to-be-displayed-on-the-screen" />
+
 

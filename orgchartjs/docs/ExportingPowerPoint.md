@@ -4,7 +4,11 @@ head:
   - - meta
     - property: og:image
       content: http://balkan.app/Content/img/mobile.png
+  - - meta
+    - property: og:title
+      content: PowerPoint Export | OrgChart JS
 ---
+
 
 # PowerPoint Export
 
@@ -364,4 +368,5 @@ There may be cases where you do not want to use the BALKAN server for export. Fo
 
 In that case you need to set up your own [Server JS](/ServerJS).
 :::
+
 

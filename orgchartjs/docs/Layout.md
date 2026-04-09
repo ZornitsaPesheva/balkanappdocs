@@ -4,7 +4,11 @@ head:
   - - meta
     - property: og:image
       content: http://balkan.app/Content/img/mobile.png
+  - - meta
+    - property: og:title
+      content: Layout | OrgChart JS
 ---
+
 
 
 # Layout
@@ -93,3 +97,4 @@ To optimize space using both vertical and horizontal layouts, set `layout` to:
 [Example: different layouts per branch](https://code.balkan.app/orgchart-js/changing-nodes-layouts-in-different-branches)  
 
 [Example: custom layout with layout events](https://code.balkan.app/org-chart-js/multi-layout#JS)
+

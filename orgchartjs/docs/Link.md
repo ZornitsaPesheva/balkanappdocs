@@ -4,7 +4,11 @@ head:
   - - meta
     - property: og:image
       content: http://balkan.app/Content/img/mobile.png
+  - - meta
+    - property: og:title
+      content: Links | OrgChart JS
 ---
+
 
 # Links
 
@@ -63,3 +67,4 @@ By default OrgChart JS renders links after the nodes are rendered. You can chang
 ```javascript id="0o7m7g"
 OrgChart.RENDER_LINKS_BEFORE_NODES = true;
 ```
+

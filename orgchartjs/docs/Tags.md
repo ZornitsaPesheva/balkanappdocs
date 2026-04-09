@@ -4,7 +4,11 @@ head:
   - - meta
     - property: og:image
       content: http://balkan.app/Content/img/mobile.png
+  - - meta
+    - property: og:title
+      content: Tags | OrgChart JS
 ---
+
 
 # Tags
 
@@ -102,4 +106,5 @@ Add the tag in the node data:
 ```javascript 
 { id: 3, pid: 1, tags: ["subLevels1"] }
 ```
+
 

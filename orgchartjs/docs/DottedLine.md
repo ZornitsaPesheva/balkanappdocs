@@ -4,7 +4,11 @@ head:
   - - meta
     - property: og:image
       content: http://balkan.app/Content/img/mobile.png
+  - - meta
+    - property: og:title
+      content: Dotted lines | OrgChart JS
 ---
+
 
 # Dotted lines
 
@@ -81,3 +85,4 @@ tags: {
 ```
 
 <Demo path="org-chart-js/dotted-line-groups" />
+

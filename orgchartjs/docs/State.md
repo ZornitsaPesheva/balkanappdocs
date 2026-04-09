@@ -4,7 +4,11 @@ head:
   - - meta
     - property: og:image
       content: http://balkan.app/Content/img/mobile.png
+  - - meta
+    - property: og:title
+      content: State | OrgChart JS
 ---
+
 
 # State
 
@@ -99,3 +103,4 @@ chart.stateToUrl();
 1. readFromUrlParams  
 2. readFromLocalStorage  
 3. readFromIndexedDB 
+

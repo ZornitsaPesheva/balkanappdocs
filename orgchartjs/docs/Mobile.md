@@ -4,7 +4,11 @@ head:
   - - meta
     - property: og:image
       content: http://balkan.app/Content/img/mobile.png
+  - - meta
+    - property: og:title
+      content: Mobile View | OrgChart JS
 ---
+
 
 # Mobile View {#Mobile}
 
@@ -33,4 +37,5 @@ Here is another, more advanced example:
 <div style="display: flex; justify-content: center;">
   <Demo path="orgchart-js/mobile-view-ui" :height="932" width="430" />
 </div>
+
 

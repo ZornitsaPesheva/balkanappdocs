@@ -4,7 +4,11 @@ head:
   - - meta
     - property: og:image
       content: http://balkan.app/Content/img/mobile.png
+  - - meta
+    - property: og:title
+      content: Node API | OrgChart JS
 ---
+
 
 # Node API
 
@@ -180,3 +184,4 @@ chart.onInit(() => {
 
 * **OrgChart.childrenCount(chart, node)** - returns number of all children
 * **OrgChart.collapsedChildrenCount(chart, node)** - returns number of all collapsed children
+

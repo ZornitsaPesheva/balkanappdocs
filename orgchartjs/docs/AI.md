@@ -4,7 +4,11 @@ head:
   - - meta
     - property: og:image
       content: http://balkan.app/Content/img/mobile.png
+  - - meta
+    - property: og:title
+      content: AI | OrgChart JS
 ---
+
 
 
 # AI
@@ -141,3 +145,4 @@ let chart = new OrgChart({
 ```
 
 Replace `YOUR_OPENAI_API_KEY` and the URL with your actual values.
+

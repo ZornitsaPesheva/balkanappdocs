@@ -4,7 +4,11 @@ head:
   - - meta
     - property: og:image
       content: http://balkan.app/Content/img/mobile.png
+  - - meta
+    - property: og:title
+      content: How to create an OrgChart JS programmatically | OrgChart JS
 ---
+
 
 # How to create an OrgChart JS programmatically
 
@@ -68,4 +72,5 @@ chart.removeNode(2);
 ```
 
 <Demo path="org-chart-js/remove" />
+
 

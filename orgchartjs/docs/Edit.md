@@ -4,7 +4,11 @@ head:
   - - meta
     - property: og:image
       content: http://balkan.app/Content/img/mobile.png
+  - - meta
+    - property: og:title
+      content: Edit | OrgChart JS
 ---
+
 
 
 # Edit
@@ -284,4 +288,5 @@ editUI: new editForm(),
 Example:
 
 <Demo path="org-chart-js/custom-edit-form" />
+
 
