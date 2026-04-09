@@ -20,11 +20,10 @@ let chart = new OrgChart(document.getElementById("tree"), {
     enableAI: true,
     ...
 });
-````
+```
 
 <Demo path="orgchart-js/ai-example" height="700px" />
 
----
 
 ## Example prompts
 
@@ -33,15 +32,12 @@ let chart = new OrgChart(document.getElementById("tree"), {
 * Increase the salary of Amelia with little
 * Highlight sales
 
----
 
 ## Customization
 
 Here is an example that sends a message to a given employee:
 
 <Demo path="orgchart-js/built-in-ai-experimental" height="700px" />
-
----
 
 ## aiChatTools
 
