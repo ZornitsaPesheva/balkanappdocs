@@ -337,7 +337,7 @@ Code example: [convert images](https://code.balkan.app/orgchart-js/convert-image
 ::: warning Server JS
 There may be cases where you do not want to use the BALKAN server for export. For example, if you are running a secure website or if you do not want your data to be passed to https://balkan.app.
 
-In that case you need to set up your own Server JS.
+In that case you need to set up your own [Server JS](/ServerJS).
 :::
 
 ::: warning API Removal Notice (Version 9)
