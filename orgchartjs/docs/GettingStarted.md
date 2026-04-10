@@ -3,7 +3,7 @@ outline: deep
 head:
   - - meta
     - property: og:image
-      content: https://balkanappdocs.onrender.com/path-to-image.png
+      content: https://balkan.app/Content/img/oc.png
   - - meta
     - property: og:title
       content: Getting Started | OrgChart JS
@@ -12,7 +12,7 @@ head:
       content: "max-image-preview: large"
   - - meta
     - name: twitter:image
-      content: https://balkanappdocs.onrender.com/path-to-image.png
+      content: https://balkan.app/Content/img/oc.png
   - - meta
     - name: twitter:card
       content: summary_large_image
@@ -23,7 +23,7 @@ head:
         "@context": "https://schema.org",
         "@type": "TechArticle",
         "headline": "Getting Started | BALKAN OrgChart JS",
-        "image": ["https://balkanappdocs.onrender.com/path-to-image.png"]
+        "image": ["https://balkan.app/Content/img/oc.png"]
       }
 
 ---
