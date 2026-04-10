@@ -15,7 +15,7 @@ export default defineConfig({
     ['meta', { property: 'og:title', content: 'BALKAN OrgChart JS - JavaScript Org Chart Library | Docs' }],
     ['meta', { property: 'og:description', content: 'BALKAN OrgChart JS documentation for building interactive organizational charts with JavaScript. Learn API, features, templates, and customization.' }],
     // ['meta', { property: 'og:image', content: 'https://balkan.app/Content/img/screenshot-ba.png' }],
-    ['meta', { property: 'og:url', content: '/' }],
+    ['meta', { property: 'og:url', content: 'https://balkan.app/OrgChartJS/Docs/' }],
     ['meta', { name: 'twitter:card', content: 'summary_large_image' }],
     ['meta', { name: 'twitter:title', content: 'BALKAN OrgChart JS - JavaScript Org Chart Library | Docs' }],
     ['meta', { name: 'twitter:description', content: 'BALKAN OrgChart JS documentation for building interactive organizational charts with JavaScript. Learn API, features, templates, and customization.' }],
