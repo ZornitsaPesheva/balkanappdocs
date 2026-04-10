@@ -9,7 +9,7 @@ head:
       content: Getting Started | OrgChart JS
   - - meta
     - name: robots
-      content: max-image-preview: large
+      content: "max-image-preview: large"
   - - meta
     - name: twitter:image
       content: https://balkanappdocs.onrender.com/path-to-image.png
