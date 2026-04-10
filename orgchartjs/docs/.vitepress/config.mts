@@ -20,7 +20,7 @@ export default defineConfig({
     ['meta', { name: 'twitter:title', content: 'BALKAN OrgChart JS - JavaScript Org Chart Library | Docs' }],
     ['meta', { name: 'twitter:description', content: 'BALKAN OrgChart JS documentation for building interactive organizational charts with JavaScript. Learn API, features, templates, and customization.' }],
     ['meta', { name: 'twitter:image', content: 'https://balkan.app/Content/img/oc.png' }],
-    ['meta', { name: 'twitter:url', content: '/' }],
+    ['meta', { name: 'twitter:url', content: 'https://balkan.app/OrgChartJS/Docs/' }],
     ['meta', { name: 'robots', content: 'index, follow' }] 
   ],
   themeConfig: {
