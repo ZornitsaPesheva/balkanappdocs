@@ -132,6 +132,7 @@ export default defineConfig({
                 { text: 'State', link: '/State' },
                 { text: 'Performance <span class="badge-ce" title="Available in community edition">CE</span>', link: '/Performance' },
                 { text: 'Server Side Examples <span class="badge-ce" title="Available in community edition">CE</span>', link: '/GitHub' },
+                { text: 'Salesforce Integration <span class="badge-ce" title="Available in community edition">CE</span>', link: '/Salesforce' },
                 { text: 'How to create OrgChart JS programmatically (API) <span class="badge-ce" title="Available in community edition">CE</span>', link: '/CreateProgrammatically' },
                 { text: 'Use Cases', link: '/UseCases' }
               ]
