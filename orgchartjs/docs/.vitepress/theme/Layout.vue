@@ -101,7 +101,7 @@ function closeMobileNav() {
             <a href="../React" @click="closeMobileNav">React</a>    
           </li>
           <li>
-            <a href="../Vue" @click="closeMobileNav">Vue</a>    
+            <a href="../Vuejs" @click="closeMobileNav">Vue</a>    
           </li>
         </ul>
       </div>
