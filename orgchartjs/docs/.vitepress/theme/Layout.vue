@@ -45,7 +45,7 @@ function closeMobileNav() {
           >
             <ul>
               <li>
-                <a id="logo-link" href="/OrgChartJS" @click="closeMobileNav">
+                <a id="logo-link" href="https://balkan.app/OrgChartJS" @click="closeMobileNav">
                   <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="261" height="40" style="margin-top: -5px;">
                     <g transform="matrix(0.75, 0, 0, 0.75, 0, 0)">
                       <rect fill="#039BE5" x="8.5" y="0" width="15" height="15"></rect>
