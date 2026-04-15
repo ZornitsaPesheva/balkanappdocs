@@ -1,5 +1,6 @@
 <script setup>
 import { ref } from 'vue'
+import { withBase } from 'vitepress'
 import DefaultTheme from 'vitepress/theme'
 import './custom.css'
 
@@ -95,13 +96,13 @@ function closeMobileNav() {
             <a style="color: #F57C00;" href="#" @click="closeMobileNav">JavaScript</a>
           </li>
           <li>
-            <a href="../Angular" @click="closeMobileNav">Angular</a>
+            <a :href="withBase('/Angular')" @click="closeMobileNav">Angular</a>
           </li>
           <li>
-            <a href="../React" @click="closeMobileNav">React</a>    
+            <a :href="withBase('/React')" @click="closeMobileNav">React</a>    
           </li>
           <li>
-            <a href="../Vuejs" @click="closeMobileNav">Vue</a>    
+            <a :href="withBase('/Vuejs')" @click="closeMobileNav">Vue</a>    
           </li>
         </ul>
       </div>
