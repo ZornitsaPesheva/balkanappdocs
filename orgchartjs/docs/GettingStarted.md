@@ -41,7 +41,8 @@ There are two types of licenses: **Community** and **Commercial**.
 If you plan to use a Commercial license, download the **FREE Trial** edition.
 If you want to use the product for free with limited functionality, start with the **Community** Edition.       
 
-## Installation
+## Installation and usage
+
 <GettingStartedTabs />
 
 ## Result

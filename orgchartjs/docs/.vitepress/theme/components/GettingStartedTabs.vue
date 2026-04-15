@@ -78,7 +78,7 @@
           </div>
         </div>
         <li>TypeScript declarations:</li>
-        <p>To have intellisense you also need to add the <code>.d.ts</code> file to your project.</p>
+        <p>To have intellisense for TypeScript you also need to add the <code>.d.ts</code> file to your project.</p>
         <div class="vp-code-group">
           <div class="tabs">
             <input type="radio" name="group-dts" id="tab-dts-orgchart" checked>
@@ -98,26 +98,31 @@
           </div>
         </div>
       </ol> 
-
-      <h3>Usage</h3>
+ <h3>HTML</h3>
       <div class="vp-code-group">
         <div class="blocks">
           <div class="language-html active">
             <span class="lang">html</span>
-            <pre class="shiki shiki-themes github-light github-dark" tabindex="0"><code><span class="line">&lt;div id="tree"&gt;&lt;/div&gt;</span>
+            <pre class="shiki shiki-themes github-light github-dark" tabindex="0"><code><span class="line"><span style="--shiki-light:#cf222e;--shiki-dark:#f97583">&lt;</span><span style="--shiki-light:#116329;--shiki-dark:#7ee787">div</span> <span style="--shiki-light:#116329;--shiki-dark:#7ee787">id</span><span style="--shiki-light:#24292f;--shiki-dark:#c9d1d9">=</span><span style="--shiki-light:#0a3069;--shiki-dark:#a5d6ff">"tree"</span><span style="--shiki-light:#cf222e;--shiki-dark:#f97583">&gt;&lt;/</span><span style="--shiki-light:#116329;--shiki-dark:#7ee787">div</span><span style="--shiki-light:#cf222e;--shiki-dark:#f97583">&gt;</span></span></code></pre>
+          </div>
+        </div>
+      </div>
+
+      <h3>JavaScript</h3>
+      <div class="vp-code-group">
+        <div class="blocks">
+          <div class="language-js active">
+            <span class="lang">js</span>
+            <pre class="shiki shiki-themes github-light github-dark" tabindex="0"><code><span class="line"><span style="--shiki-light:#cf222e;--shiki-dark:#ff7b72">const</span><span style="--shiki-light:#24292f;--shiki-dark:#c9d1d9"> chart = </span><span style="--shiki-light:#cf222e;--shiki-dark:#ff7b72">new</span><span style="--shiki-light:#24292f;--shiki-dark:#c9d1d9"> OrgChart(document.getElementById(</span><span style="--shiki-light:#0a3069;--shiki-dark:#a5d6ff">"tree"</span><span style="--shiki-light:#24292f;--shiki-dark:#c9d1d9">), {</span></span>
+<span class="line"><span style="--shiki-light:#24292f;--shiki-dark:#c9d1d9">    </span><span style="--shiki-light:#6639ba;--shiki-dark:#d2a8ff">nodeBinding</span><span style="--shiki-light:#24292f;--shiki-dark:#c9d1d9">: {</span></span>
+<span class="line"><span style="--shiki-light:#24292f;--shiki-dark:#c9d1d9">        </span><span style="--shiki-light:#6639ba;--shiki-dark:#d2a8ff">field_0</span><span style="--shiki-light:#24292f;--shiki-dark:#c9d1d9">: </span><span style="--shiki-light:#0a3069;--shiki-dark:#a5d6ff">"name"</span><span style="--shiki-light:#24292f;--shiki-dark:#c9d1d9">,</span></span>
+<span class="line"><span style="--shiki-light:#24292f;--shiki-dark:#c9d1d9">    }</span></span>
+<span class="line"><span style="--shiki-light:#24292f;--shiki-dark:#c9d1d9">});</span></span>
 <span class="line"></span>
-<span class="line">&lt;script&gt;</span>
-<span class="line">    const chart = new OrgChart(document.getElementById("tree"), {</span>
-<span class="line">        nodeBinding: {</span>
-<span class="line">            field_0: "name",</span>
-<span class="line">        }</span>
-<span class="line">    });</span>
-<span class="line"></span>
-<span class="line">    chart.load([</span>
-<span class="line">            { id: 1, name: "John Doe", title: "CEO" },</span>
-<span class="line">            { id: 2, pid: 1, name: "Jane Smith", title: "CTO" }</span>
-<span class="line">    ]);</span>
-<span class="line">&lt;/script&gt;</span></code></pre>
+<span class="line"><span style="--shiki-light:#24292f;--shiki-dark:#c9d1d9">chart.</span><span style="--shiki-light:#8250df;--shiki-dark:#d2a8ff">load</span><span style="--shiki-light:#24292f;--shiki-dark:#c9d1d9">([</span></span>
+<span class="line"><span style="--shiki-light:#24292f;--shiki-dark:#c9d1d9">        { </span><span style="--shiki-light:#6639ba;--shiki-dark:#d2a8ff">id</span><span style="--shiki-light:#24292f;--shiki-dark:#c9d1d9">: </span><span style="--shiki-light:#0550ae;--shiki-dark:#79c0ff">1</span><span style="--shiki-light:#24292f;--shiki-dark:#c9d1d9">, </span><span style="--shiki-light:#6639ba;--shiki-dark:#d2a8ff">name</span><span style="--shiki-light:#24292f;--shiki-dark:#c9d1d9">: </span><span style="--shiki-light:#0a3069;--shiki-dark:#a5d6ff">"John Doe"</span><span style="--shiki-light:#24292f;--shiki-dark:#c9d1d9">, </span><span style="--shiki-light:#6639ba;--shiki-dark:#d2a8ff">title</span><span style="--shiki-light:#24292f;--shiki-dark:#c9d1d9">: </span><span style="--shiki-light:#0a3069;--shiki-dark:#a5d6ff">"CEO"</span><span style="--shiki-light:#24292f;--shiki-dark:#c9d1d9"> },</span></span>
+<span class="line"><span style="--shiki-light:#24292f;--shiki-dark:#c9d1d9">        { </span><span style="--shiki-light:#6639ba;--shiki-dark:#d2a8ff">id</span><span style="--shiki-light:#24292f;--shiki-dark:#c9d1d9">: </span><span style="--shiki-light:#0550ae;--shiki-dark:#79c0ff">2</span><span style="--shiki-light:#24292f;--shiki-dark:#c9d1d9">, </span><span style="--shiki-light:#6639ba;--shiki-dark:#d2a8ff">pid</span><span style="--shiki-light:#24292f;--shiki-dark:#c9d1d9">: </span><span style="--shiki-light:#0550ae;--shiki-dark:#79c0ff">1</span><span style="--shiki-light:#24292f;--shiki-dark:#c9d1d9">, </span><span style="--shiki-light:#6639ba;--shiki-dark:#d2a8ff">name</span><span style="--shiki-light:#24292f;--shiki-dark:#c9d1d9">: </span><span style="--shiki-light:#0a3069;--shiki-dark:#a5d6ff">"Jane Smith"</span><span style="--shiki-light:#24292f;--shiki-dark:#c9d1d9">, </span><span style="--shiki-light:#6639ba;--shiki-dark:#d2a8ff">title</span><span style="--shiki-light:#24292f;--shiki-dark:#c9d1d9">: </span><span style="--shiki-light:#0a3069;--shiki-dark:#a5d6ff">"CTO"</span><span style="--shiki-light:#24292f;--shiki-dark:#c9d1d9"> }</span></span>
+<span class="line"><span style="--shiki-light:#24292f;--shiki-dark:#c9d1d9">]);</span></span></code></pre>
           </div>
         </div>
       </div>
@@ -149,25 +154,32 @@
         </div>
       </div>
 
-      <h3>Usage</h3>
+   <h3>HTML</h3>
       <div class="vp-code-group">
         <div class="blocks">
           <div class="language-html active">
             <span class="lang">html</span>
-            <pre class="shiki shiki-themes github-light github-dark" tabindex="0"><code><span class="line">&lt;div id="tree"&gt;&lt;/div&gt;</span>
+            <pre class="shiki shiki-themes github-light github-dark" tabindex="0"><code><span class="line"><span style="--shiki-light:#cf222e;--shiki-dark:#f97583">&lt;</span><span style="--shiki-light:#116329;--shiki-dark:#7ee787">div</span> <span style="--shiki-light:#116329;--shiki-dark:#7ee787">id</span><span style="--shiki-light:#24292f;--shiki-dark:#c9d1d9">=</span><span style="--shiki-light:#0a3069;--shiki-dark:#a5d6ff">"tree"</span><span style="--shiki-light:#cf222e;--shiki-dark:#f97583">&gt;&lt;/</span><span style="--shiki-light:#116329;--shiki-dark:#7ee787">div</span><span style="--shiki-light:#cf222e;--shiki-dark:#f97583">&gt;</span></span></code></pre>
+          </div>
+        </div>
+      </div>
+
+      <h3>JavaScript</h3>
+      <div class="vp-code-group">
+        <div class="blocks">
+          <div class="language-js active">
+            <span class="lang">js</span>
+            <pre class="shiki shiki-themes github-light github-dark" tabindex="0"><code>
+<span class="line"><span style="--shiki-light:#cf222e;--shiki-dark:#ff7b72">const</span><span style="--shiki-light:#24292f;--shiki-dark:#c9d1d9"> chart = </span><span style="--shiki-light:#cf222e;--shiki-dark:#ff7b72">new</span><span style="--shiki-light:#24292f;--shiki-dark:#c9d1d9"> OrgChart(document.getElementById(</span><span style="--shiki-light:#0a3069;--shiki-dark:#a5d6ff">"tree"</span><span style="--shiki-light:#24292f;--shiki-dark:#c9d1d9">), {</span></span>
+<span class="line"><span style="--shiki-light:#24292f;--shiki-dark:#c9d1d9">    </span><span style="--shiki-light:#6639ba;--shiki-dark:#d2a8ff">nodeBinding</span><span style="--shiki-light:#24292f;--shiki-dark:#c9d1d9">: {</span></span>
+<span class="line"><span style="--shiki-light:#24292f;--shiki-dark:#c9d1d9">        </span><span style="--shiki-light:#6639ba;--shiki-dark:#d2a8ff">field_0</span><span style="--shiki-light:#24292f;--shiki-dark:#c9d1d9">: </span><span style="--shiki-light:#0a3069;--shiki-dark:#a5d6ff">"name"</span><span style="--shiki-light:#24292f;--shiki-dark:#c9d1d9">,</span></span>
+<span class="line"><span style="--shiki-light:#24292f;--shiki-dark:#c9d1d9">    }</span></span>
+<span class="line"><span style="--shiki-light:#24292f;--shiki-dark:#c9d1d9">});</span></span>
 <span class="line"></span>
-<span class="line">&lt;script&gt;</span>
-<span class="line">    const chart = new OrgChart(document.getElementById("tree"), {</span>
-<span class="line">        nodeBinding: {</span>
-<span class="line">            field_0: "name",</span>
-<span class="line">        }</span>
-<span class="line">    });</span>
-<span class="line"></span>
-<span class="line">    chart.load([</span>
-<span class="line">            { id: 1, name: "John Doe", title: "CEO" },</span>
-<span class="line">            { id: 2, pid: 1, name: "Jane Smith", title: "CTO" }</span>
-<span class="line">    ]);</span>
-<span class="line">&lt;/script&gt;</span></code></pre>
+<span class="line"><span style="--shiki-light:#24292f;--shiki-dark:#c9d1d9">chart.</span><span style="--shiki-light:#8250df;--shiki-dark:#d2a8ff">load</span><span style="--shiki-light:#24292f;--shiki-dark:#c9d1d9">([</span></span>
+<span class="line"><span style="--shiki-light:#24292f;--shiki-dark:#c9d1d9">        { </span><span style="--shiki-light:#6639ba;--shiki-dark:#d2a8ff">id</span><span style="--shiki-light:#24292f;--shiki-dark:#c9d1d9">: </span><span style="--shiki-light:#0550ae;--shiki-dark:#79c0ff">1</span><span style="--shiki-light:#24292f;--shiki-dark:#c9d1d9">, </span><span style="--shiki-light:#6639ba;--shiki-dark:#d2a8ff">name</span><span style="--shiki-light:#24292f;--shiki-dark:#c9d1d9">: </span><span style="--shiki-light:#0a3069;--shiki-dark:#a5d6ff">"John Doe"</span><span style="--shiki-light:#24292f;--shiki-dark:#c9d1d9">, </span><span style="--shiki-light:#6639ba;--shiki-dark:#d2a8ff">title</span><span style="--shiki-light:#24292f;--shiki-dark:#c9d1d9">: </span><span style="--shiki-light:#0a3069;--shiki-dark:#a5d6ff">"CEO"</span><span style="--shiki-light:#24292f;--shiki-dark:#c9d1d9"> },</span></span>
+<span class="line"><span style="--shiki-light:#24292f;--shiki-dark:#c9d1d9">        { </span><span style="--shiki-light:#6639ba;--shiki-dark:#d2a8ff">id</span><span style="--shiki-light:#24292f;--shiki-dark:#c9d1d9">: </span><span style="--shiki-light:#0550ae;--shiki-dark:#79c0ff">2</span><span style="--shiki-light:#24292f;--shiki-dark:#c9d1d9">, </span><span style="--shiki-light:#6639ba;--shiki-dark:#d2a8ff">pid</span><span style="--shiki-light:#24292f;--shiki-dark:#c9d1d9">: </span><span style="--shiki-light:#0550ae;--shiki-dark:#79c0ff">1</span><span style="--shiki-light:#24292f;--shiki-dark:#c9d1d9">, </span><span style="--shiki-light:#6639ba;--shiki-dark:#d2a8ff">name</span><span style="--shiki-light:#24292f;--shiki-dark:#c9d1d9">: </span><span style="--shiki-light:#0a3069;--shiki-dark:#a5d6ff">"Jane Smith"</span><span style="--shiki-light:#24292f;--shiki-dark:#c9d1d9">, </span><span style="--shiki-light:#6639ba;--shiki-dark:#d2a8ff">title</span><span style="--shiki-light:#24292f;--shiki-dark:#c9d1d9">: </span><span style="--shiki-light:#0a3069;--shiki-dark:#a5d6ff">"CTO"</span><span style="--shiki-light:#24292f;--shiki-dark:#c9d1d9"> }</span></span>
+<span class="line"><span style="--shiki-light:#24292f;--shiki-dark:#c9d1d9">]);</span></span></code></pre>
           </div>
         </div>
       </div>
@@ -203,26 +215,31 @@
           </div>
         </div>
       </div>
-
-      <h3>Usage</h3>
+ <h3>HTML</h3>
       <div class="vp-code-group">
         <div class="blocks">
           <div class="language-html active">
             <span class="lang">html</span>
-            <pre class="shiki shiki-themes github-light github-dark" tabindex="0"><code><span class="line">&lt;div id="tree"&gt;&lt;/div&gt;</span>
+            <pre class="shiki shiki-themes github-light github-dark" tabindex="0"><code><span class="line"><span style="--shiki-light:#cf222e;--shiki-dark:#f97583">&lt;</span><span style="--shiki-light:#116329;--shiki-dark:#7ee787">div</span> <span style="--shiki-light:#116329;--shiki-dark:#7ee787">id</span><span style="--shiki-light:#24292f;--shiki-dark:#c9d1d9">=</span><span style="--shiki-light:#0a3069;--shiki-dark:#a5d6ff">"tree"</span><span style="--shiki-light:#cf222e;--shiki-dark:#f97583">&gt;&lt;/</span><span style="--shiki-light:#116329;--shiki-dark:#7ee787">div</span><span style="--shiki-light:#cf222e;--shiki-dark:#f97583">&gt;</span></span></code></pre>
+          </div>
+        </div>
+      </div>
+
+      <h3>JavaScript</h3>
+      <div class="vp-code-group">
+        <div class="blocks">
+          <div class="language-js active">
+            <span class="lang">js</span>
+            <pre class="shiki shiki-themes github-light github-dark" tabindex="0"><code><span class="line"><span style="--shiki-light:#cf222e;--shiki-dark:#ff7b72">const</span><span style="--shiki-light:#24292f;--shiki-dark:#c9d1d9"> chart = </span><span style="--shiki-light:#cf222e;--shiki-dark:#ff7b72">new</span><span style="--shiki-light:#24292f;--shiki-dark:#c9d1d9"> OrgChart(document.getElementById(</span><span style="--shiki-light:#0a3069;--shiki-dark:#a5d6ff">"tree"</span><span style="--shiki-light:#24292f;--shiki-dark:#c9d1d9">), {</span></span>
+<span class="line"><span style="--shiki-light:#24292f;--shiki-dark:#c9d1d9">    </span><span style="--shiki-light:#6639ba;--shiki-dark:#d2a8ff">nodeBinding</span><span style="--shiki-light:#24292f;--shiki-dark:#c9d1d9">: {</span></span>
+<span class="line"><span style="--shiki-light:#24292f;--shiki-dark:#c9d1d9">        </span><span style="--shiki-light:#6639ba;--shiki-dark:#d2a8ff">field_0</span><span style="--shiki-light:#24292f;--shiki-dark:#c9d1d9">: </span><span style="--shiki-light:#0a3069;--shiki-dark:#a5d6ff">"name"</span><span style="--shiki-light:#24292f;--shiki-dark:#c9d1d9">,</span></span>
+<span class="line"><span style="--shiki-light:#24292f;--shiki-dark:#c9d1d9">    }</span></span>
+<span class="line"><span style="--shiki-light:#24292f;--shiki-dark:#c9d1d9">});</span></span>
 <span class="line"></span>
-<span class="line">&lt;script&gt;</span>
-<span class="line">    const chart = new OrgChart(document.getElementById("tree"), {</span>
-<span class="line">        nodeBinding: {</span>
-<span class="line">            field_0: "name",</span>
-<span class="line">        }</span>
-<span class="line">    });</span>
-<span class="line"></span>
-<span class="line">    chart.load([</span>
-<span class="line">            { id: 1, name: "John Doe", title: "CEO" },</span>
-<span class="line">            { id: 2, pid: 1, name: "Jane Smith", title: "CTO" }</span>
-<span class="line">    ]);</span>
-<span class="line">&lt;/script&gt;</span></code></pre>
+<span class="line"><span style="--shiki-light:#24292f;--shiki-dark:#c9d1d9">chart.</span><span style="--shiki-light:#8250df;--shiki-dark:#d2a8ff">load</span><span style="--shiki-light:#24292f;--shiki-dark:#c9d1d9">([</span></span>
+<span class="line"><span style="--shiki-light:#24292f;--shiki-dark:#c9d1d9">        { </span><span style="--shiki-light:#6639ba;--shiki-dark:#d2a8ff">id</span><span style="--shiki-light:#24292f;--shiki-dark:#c9d1d9">: </span><span style="--shiki-light:#0550ae;--shiki-dark:#79c0ff">1</span><span style="--shiki-light:#24292f;--shiki-dark:#c9d1d9">, </span><span style="--shiki-light:#6639ba;--shiki-dark:#d2a8ff">name</span><span style="--shiki-light:#24292f;--shiki-dark:#c9d1d9">: </span><span style="--shiki-light:#0a3069;--shiki-dark:#a5d6ff">"John Doe"</span><span style="--shiki-light:#24292f;--shiki-dark:#c9d1d9">, </span><span style="--shiki-light:#6639ba;--shiki-dark:#d2a8ff">title</span><span style="--shiki-light:#24292f;--shiki-dark:#c9d1d9">: </span><span style="--shiki-light:#0a3069;--shiki-dark:#a5d6ff">"CEO"</span><span style="--shiki-light:#24292f;--shiki-dark:#c9d1d9"> },</span></span>
+<span class="line"><span style="--shiki-light:#24292f;--shiki-dark:#c9d1d9">        { </span><span style="--shiki-light:#6639ba;--shiki-dark:#d2a8ff">id</span><span style="--shiki-light:#24292f;--shiki-dark:#c9d1d9">: </span><span style="--shiki-light:#0550ae;--shiki-dark:#79c0ff">2</span><span style="--shiki-light:#24292f;--shiki-dark:#c9d1d9">, </span><span style="--shiki-light:#6639ba;--shiki-dark:#d2a8ff">pid</span><span style="--shiki-light:#24292f;--shiki-dark:#c9d1d9">: </span><span style="--shiki-light:#0550ae;--shiki-dark:#79c0ff">1</span><span style="--shiki-light:#24292f;--shiki-dark:#c9d1d9">, </span><span style="--shiki-light:#6639ba;--shiki-dark:#d2a8ff">name</span><span style="--shiki-light:#24292f;--shiki-dark:#c9d1d9">: </span><span style="--shiki-light:#0a3069;--shiki-dark:#a5d6ff">"Jane Smith"</span><span style="--shiki-light:#24292f;--shiki-dark:#c9d1d9">, </span><span style="--shiki-light:#6639ba;--shiki-dark:#d2a8ff">title</span><span style="--shiki-light:#24292f;--shiki-dark:#c9d1d9">: </span><span style="--shiki-light:#0a3069;--shiki-dark:#a5d6ff">"CTO"</span><span style="--shiki-light:#24292f;--shiki-dark:#c9d1d9"> }</span></span>
+<span class="line"><span style="--shiki-light:#24292f;--shiki-dark:#c9d1d9">]);</span></span></code></pre>
           </div>
         </div>
       </div>
@@ -272,25 +289,31 @@
         </div>
       </div>
 
-      <h3>Usage</h3>
+    <h3>HTML</h3>
       <div class="vp-code-group">
         <div class="blocks">
           <div class="language-html active">
             <span class="lang">html</span>
-            <pre class="shiki shiki-themes github-light github-dark" tabindex="0"><code><span class="line">&lt;div id="tree"&gt;&lt;/div&gt;</span>
+            <pre class="shiki shiki-themes github-light github-dark" tabindex="0"><code><span class="line"><span style="--shiki-light:#cf222e;--shiki-dark:#f97583">&lt;</span><span style="--shiki-light:#116329;--shiki-dark:#7ee787">div</span> <span style="--shiki-light:#116329;--shiki-dark:#7ee787">id</span><span style="--shiki-light:#24292f;--shiki-dark:#c9d1d9">=</span><span style="--shiki-light:#0a3069;--shiki-dark:#a5d6ff">"tree"</span><span style="--shiki-light:#cf222e;--shiki-dark:#f97583">&gt;&lt;/</span><span style="--shiki-light:#116329;--shiki-dark:#7ee787">div</span><span style="--shiki-light:#cf222e;--shiki-dark:#f97583">&gt;</span></span></code></pre>
+          </div>
+        </div>
+      </div>
+
+      <h3>JavaScript</h3>
+      <div class="vp-code-group">
+        <div class="blocks">
+          <div class="language-js active">
+            <span class="lang">js</span>
+            <pre class="shiki shiki-themes github-light github-dark" tabindex="0"><code><span class="line"><span style="--shiki-light:#cf222e;--shiki-dark:#ff7b72">const</span><span style="--shiki-light:#24292f;--shiki-dark:#c9d1d9"> chart = </span><span style="--shiki-light:#cf222e;--shiki-dark:#ff7b72">new</span><span style="--shiki-light:#24292f;--shiki-dark:#c9d1d9"> OrgChart(document.getElementById(</span><span style="--shiki-light:#0a3069;--shiki-dark:#a5d6ff">"tree"</span><span style="--shiki-light:#24292f;--shiki-dark:#c9d1d9">), {</span></span>
+<span class="line"><span style="--shiki-light:#24292f;--shiki-dark:#c9d1d9">    </span><span style="--shiki-light:#6639ba;--shiki-dark:#d2a8ff">nodeBinding</span><span style="--shiki-light:#24292f;--shiki-dark:#c9d1d9">: {</span></span>
+<span class="line"><span style="--shiki-light:#24292f;--shiki-dark:#c9d1d9">        </span><span style="--shiki-light:#6639ba;--shiki-dark:#d2a8ff">field_0</span><span style="--shiki-light:#24292f;--shiki-dark:#c9d1d9">: </span><span style="--shiki-light:#0a3069;--shiki-dark:#a5d6ff">"name"</span><span style="--shiki-light:#24292f;--shiki-dark:#c9d1d9">,</span></span>
+<span class="line"><span style="--shiki-light:#24292f;--shiki-dark:#c9d1d9">    }</span></span>
+<span class="line"><span style="--shiki-light:#24292f;--shiki-dark:#c9d1d9">});</span></span>
 <span class="line"></span>
-<span class="line">&lt;script&gt;</span>
-<span class="line">    const chart = new OrgChart(document.getElementById("tree"), {</span>
-<span class="line">        nodeBinding: {</span>
-<span class="line">            field_0: "name",</span>
-<span class="line">        }</span>
-<span class="line">    });</span>
-<span class="line"></span>
-<span class="line">    chart.load([</span>
-<span class="line">            { id: 1, name: "John Doe", title: "CEO" },</span>
-<span class="line">            { id: 2, pid: 1, name: "Jane Smith", title: "CTO" }</span>
-<span class="line">    ]);</span>
-<span class="line">&lt;/script&gt;</span></code></pre>
+<span class="line"><span style="--shiki-light:#24292f;--shiki-dark:#c9d1d9">chart.</span><span style="--shiki-light:#8250df;--shiki-dark:#d2a8ff">load</span><span style="--shiki-light:#24292f;--shiki-dark:#c9d1d9">([</span></span>
+<span class="line"><span style="--shiki-light:#24292f;--shiki-dark:#c9d1d9">        { </span><span style="--shiki-light:#6639ba;--shiki-dark:#d2a8ff">id</span><span style="--shiki-light:#24292f;--shiki-dark:#c9d1d9">: </span><span style="--shiki-light:#0550ae;--shiki-dark:#79c0ff">1</span><span style="--shiki-light:#24292f;--shiki-dark:#c9d1d9">, </span><span style="--shiki-light:#6639ba;--shiki-dark:#d2a8ff">name</span><span style="--shiki-light:#24292f;--shiki-dark:#c9d1d9">: </span><span style="--shiki-light:#0a3069;--shiki-dark:#a5d6ff">"John Doe"</span><span style="--shiki-light:#24292f;--shiki-dark:#c9d1d9">, </span><span style="--shiki-light:#6639ba;--shiki-dark:#d2a8ff">title</span><span style="--shiki-light:#24292f;--shiki-dark:#c9d1d9">: </span><span style="--shiki-light:#0a3069;--shiki-dark:#a5d6ff">"CEO"</span><span style="--shiki-light:#24292f;--shiki-dark:#c9d1d9"> },</span></span>
+<span class="line"><span style="--shiki-light:#24292f;--shiki-dark:#c9d1d9">        { </span><span style="--shiki-light:#6639ba;--shiki-dark:#d2a8ff">id</span><span style="--shiki-light:#24292f;--shiki-dark:#c9d1d9">: </span><span style="--shiki-light:#0550ae;--shiki-dark:#79c0ff">2</span><span style="--shiki-light:#24292f;--shiki-dark:#c9d1d9">, </span><span style="--shiki-light:#6639ba;--shiki-dark:#d2a8ff">pid</span><span style="--shiki-light:#24292f;--shiki-dark:#c9d1d9">: </span><span style="--shiki-light:#0550ae;--shiki-dark:#79c0ff">1</span><span style="--shiki-light:#24292f;--shiki-dark:#c9d1d9">, </span><span style="--shiki-light:#6639ba;--shiki-dark:#d2a8ff">name</span><span style="--shiki-light:#24292f;--shiki-dark:#c9d1d9">: </span><span style="--shiki-light:#0a3069;--shiki-dark:#a5d6ff">"Jane Smith"</span><span style="--shiki-light:#24292f;--shiki-dark:#c9d1d9">, </span><span style="--shiki-light:#6639ba;--shiki-dark:#d2a8ff">title</span><span style="--shiki-light:#24292f;--shiki-dark:#c9d1d9">: </span><span style="--shiki-light:#0a3069;--shiki-dark:#a5d6ff">"CTO"</span><span style="--shiki-light:#24292f;--shiki-dark:#c9d1d9"> }</span></span>
+<span class="line"><span style="--shiki-light:#24292f;--shiki-dark:#c9d1d9">]);</span></span></code></pre>
           </div>
         </div>
       </div>
