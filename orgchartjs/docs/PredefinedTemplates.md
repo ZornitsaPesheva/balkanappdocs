@@ -22,14 +22,14 @@ light mode:
 Dark mode:
 <Demo path="org-chart-js/dark-mode" />
 
-````md id="76144"
+
 # Predefined Templates
 
 OrgChart JS comes with a number of predefined templates. You can change the template by setting the `template` option:
 
 ```js
 template: "olivia",
-````
+```
 
 You can get the source code of any template and customize it. For example, to change the size of the node shape, update the `size` definition of the template.
 

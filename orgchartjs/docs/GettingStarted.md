@@ -44,25 +44,6 @@ If you want to use the product for free with limited functionality, start with t
 ## Installation
 <GettingStartedTabs />
 
-## Usage
-
-```html
-<div id="tree"></div>
-
-<script>
-    const chart = new OrgChart(document.getElementById("tree"), {
-        nodeBinding: {
-            field_0: "name",
-        }
-    });
-
-    chart.load([
-            { id: 1, name: "John Doe", title: "CEO" },
-            { id: 2, pid: 1, name: "Jane Smith", title: "CTO" }
-    ]);
-</script>
-```
-
 ## Result
 
 <Demo path="orgchartjs/gettingstarted" />

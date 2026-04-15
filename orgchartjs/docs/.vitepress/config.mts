@@ -3,8 +3,8 @@ import { defineConfig } from 'vitepress'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   cleanUrls: true,
-  // base: "/OrgChartJS/Docs/",
-  base: "/",
+  base: "/OrgChartJS/Docs/",
+  // base: "/",
   title: 'BALKAN OrgChart JS - JavaScript Org Chart Library | Docs',
   description: 'BALKAN OrgChart JS documentation for building interactive organizational charts with JavaScript. Learn API, features, templates, and customization.',
   appearance: false,
