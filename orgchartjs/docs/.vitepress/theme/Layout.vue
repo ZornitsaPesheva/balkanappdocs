@@ -15,6 +15,11 @@ function toggleMobileNav() {
 function closeMobileNav() {
   isMobileNavOpen.value = false
 }
+
+function navigate(url) {
+  closeMobileNav()
+  window.location.href = url
+}
 </script>
 
 <template>
@@ -45,7 +50,7 @@ function closeMobileNav() {
           >
             <ul>
               <li>
-                <a id="logo-link" href="https://balkan.app/OrgChartJS" @click="closeMobileNav">
+                <a id="logo-link" href="https://balkan.app/OrgChartJS" @click.prevent="navigate('https://balkan.app/OrgChartJS')">
                   <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="261" height="40" style="margin-top: -5px;">
                     <g transform="matrix(0.75, 0, 0, 0.75, 0, 0)">
                       <rect fill="#039BE5" x="8.5" y="0" width="15" height="15"></rect>
@@ -58,28 +63,28 @@ function closeMobileNav() {
                 </a>
               </li>
               <li>
-                <a id="products-link" href="https://balkan.app" @click="closeMobileNav">Products</a>
+                <a id="products-link" href="https://balkan.app" @click.prevent="navigate('https://balkan.app')">Products</a>
               </li>
               <li>
-                <a href="https://balkan.app/OrgChartJS" @click="closeMobileNav">Overview</a>
+                <a href="https://balkan.app/OrgChartJS" @click.prevent="navigate('https://balkan.app/OrgChartJS')">Overview</a>
               </li>
               <li>
-                <a href="https://balkan.app/OrgChartJS/Demos" @click="closeMobileNav">Demos</a>
+                <a href="https://balkan.app/OrgChartJS/Demos" @click.prevent="navigate('https://balkan.app/OrgChartJS/Demos')">Demos</a>
               </li>
               <li class="selected">
                 <a href="./GettingStarted" @click="closeMobileNav">Docs</a>
               </li>
               <li>
-                <a href="https://balkan.app/OrgChartJS/API/" @click="closeMobileNav">API</a>
+                <a href="https://balkan.app/OrgChartJS/API/" @click.prevent="navigate('https://balkan.app/OrgChartJS/API/')">API</a>
               </li>
               <li>
-                <a href="https://balkan.app/OrgChartJS/Download" @click="closeMobileNav">Download</a>
+                <a href="https://balkan.app/OrgChartJS/Download" @click.prevent="navigate('https://balkan.app/OrgChartJS/Download')">Download</a>
               </li>
               <li>
-                <a href="https://balkan.app/OrgChartJS/Support" @click="closeMobileNav">Support</a>
+                <a href="https://balkan.app/OrgChartJS/Support" @click.prevent="navigate('https://balkan.app/OrgChartJS/Support')">Support</a>
               </li>
               <li>
-                <a href="https://balkan.app/OrgChartJS/Pricing" @click="closeMobileNav">Pricing</a>
+                <a href="https://balkan.app/OrgChartJS/Pricing" @click.prevent="navigate('https://balkan.app/OrgChartJS/Pricing')">Pricing</a>
               </li>
             </ul>
           </nav>

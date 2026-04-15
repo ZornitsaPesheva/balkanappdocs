@@ -3,13 +3,13 @@ import { defineConfig } from 'vitepress'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   cleanUrls: true,
-  base: "/OrgChartJS/Docs/",
-  // base: "/",
+  // base: "/OrgChartJS/Docs/",
+  base: "/",
   title: 'BALKAN OrgChart JS - JavaScript Org Chart Library | Docs',
   description: 'BALKAN OrgChart JS documentation for building interactive organizational charts with JavaScript. Learn API, features, templates, and customization.',
   appearance: false,
   head: [
-    ['link', { rel: 'icon', href: '/favicon.ico' }],
+    ['link', { rel: 'icon', href: 'http://balkan.app/Content/img/OrgChart-icon.png' }],
     // ['link', { rel: 'icon', type: 'image/png', href: '/favicon.png' }],
     ['meta', { property: 'og:type', content: 'website' }],
     ['meta', { property: 'og:title', content: 'BALKAN OrgChart JS - JavaScript Org Chart Library | Docs' }],
