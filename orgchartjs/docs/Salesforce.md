@@ -6,7 +6,7 @@ head:
       content: https://balkan.app/Content/img/oc.png
   - - meta
     - property: og:title
-      content: GitHub Demos | OrgChart JS
+      content: Salesforce | OrgChart JS
 ---
 
 # Salesforce Lightning Web Component

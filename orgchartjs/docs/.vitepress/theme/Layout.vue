@@ -95,13 +95,13 @@ function closeMobileNav() {
             <a style="color: #F57C00;" href="#" @click="closeMobileNav">JavaScript</a>
           </li>
           <li>
-            <a href=".OrgChartAngular" @click="closeMobileNav">Angular</a>
+            <a href="../Angular" @click="closeMobileNav">Angular</a>
           </li>
           <li>
-            <a href=".OrgChartReact" @click="closeMobileNav">React</a>    
+            <a href="../React" @click="closeMobileNav">React</a>    
           </li>
           <li>
-            <a href=".OrgChartVue" @click="closeMobileNav">Vue</a>    
+            <a href="../Vue" @click="closeMobileNav">Vue</a>    
           </li>
         </ul>
       </div>
