@@ -1,5 +1,6 @@
 <template>
-  <Tabs defaultTab="cdn">
+  <div ref="rootEl" class="getting-started-tabs">
+    <Tabs defaultTab="cdn">
     <Tab name="cdn" label="CDN">
       <h3>Add this script in your HTML file</h3>
       <div class="vp-code-group">
@@ -11,12 +12,10 @@
         </div>
         <div class="blocks">
           <div class="language-html active">
-            <span class="lang">html</span>
-            <pre class="shiki shiki-themes github-light github-dark" tabindex="0"><code><span class="line"><span style="--shiki-light:#cf222e;--shiki-dark:#f97583">&lt;</span><span style="--shiki-light:#116329;--shiki-dark:#7ee787">script</span> <span style="--shiki-light:#116329;--shiki-dark:#7ee787">src</span><span style="--shiki-light:#24292f;--shiki-dark:#c9d1d9">=</span><span style="--shiki-light:#0a3069;--shiki-dark:#a5d6ff">"https://cdn.balkan.app/orgchart.js"</span><span style="--shiki-light:#cf222e;--shiki-dark:#f97583">&gt;&lt;/</span><span style="--shiki-light:#116329;--shiki-dark:#7ee787">script</span><span style="--shiki-light:#cf222e;--shiki-dark:#f97583">&gt;</span></span></code></pre>
+<pre class="shiki shiki-themes github-light github-dark" tabindex="0"><code><span class="line"><span style="--shiki-light:#cf222e;--shiki-dark:#f97583">&lt;</span><span style="--shiki-light:#116329;--shiki-dark:#7ee787">script</span> <span style="--shiki-light:#116329;--shiki-dark:#7ee787">src</span><span style="--shiki-light:#24292f;--shiki-dark:#c9d1d9">=</span><span style="--shiki-light:#0a3069;--shiki-dark:#a5d6ff">"https://cdn.balkan.app/orgchart.js"</span><span style="--shiki-light:#cf222e;--shiki-dark:#f97583">&gt;&lt;/</span><span style="--shiki-light:#116329;--shiki-dark:#7ee787">script</span><span style="--shiki-light:#cf222e;--shiki-dark:#f97583">&gt;</span></span></code></pre>
           </div>
           <div class="language-js">
-            <span class="lang">html</span>
-            <pre class="shiki shiki-themes github-light github-dark" tabindex="0"><code><span class="line"><span style="--shiki-light:#cf222e;--shiki-dark:#f97583">&lt;</span><span style="--shiki-light:#116329;--shiki-dark:#7ee787">script</span> <span style="--shiki-light:#116329;--shiki-dark:#7ee787">src</span><span style="--shiki-light:#24292f;--shiki-dark:#c9d1d9">=</span><span style="--shiki-light:#0a3069;--shiki-dark:#a5d6ff">"https://cdn.balkan.app/orgchart-community.js"</span><span style="--shiki-light:#cf222e;--shiki-dark:#f97583">&gt;&lt;/</span><span style="--shiki-light:#116329;--shiki-dark:#7ee787">script</span><span style="--shiki-light:#cf222e;--shiki-dark:#f97583">&gt;</span></span></code></pre>
+<pre class="shiki shiki-themes github-light github-dark" tabindex="0"><code><span class="line"><span style="--shiki-light:#cf222e;--shiki-dark:#f97583">&lt;</span><span style="--shiki-light:#116329;--shiki-dark:#7ee787">script</span> <span style="--shiki-light:#116329;--shiki-dark:#7ee787">src</span><span style="--shiki-light:#24292f;--shiki-dark:#c9d1d9">=</span><span style="--shiki-light:#0a3069;--shiki-dark:#a5d6ff">"https://cdn.balkan.app/orgchart-community.js"</span><span style="--shiki-light:#cf222e;--shiki-dark:#f97583">&gt;&lt;/</span><span style="--shiki-light:#116329;--shiki-dark:#7ee787">script</span><span style="--shiki-light:#cf222e;--shiki-dark:#f97583">&gt;</span></span></code></pre>
           </div>
         </div>
       </div>
@@ -25,8 +24,7 @@
       <div class="vp-code-group">
         <div class="blocks">
           <div class="language-html active">
-            <span class="lang">html</span>
-            <pre class="shiki shiki-themes github-light github-dark" tabindex="0"><code><span class="line"><span style="--shiki-light:#cf222e;--shiki-dark:#f97583">&lt;</span><span style="--shiki-light:#116329;--shiki-dark:#7ee787">div</span> <span style="--shiki-light:#116329;--shiki-dark:#7ee787">id</span><span style="--shiki-light:#24292f;--shiki-dark:#c9d1d9">=</span><span style="--shiki-light:#0a3069;--shiki-dark:#a5d6ff">"tree"</span><span style="--shiki-light:#cf222e;--shiki-dark:#f97583">&gt;&lt;/</span><span style="--shiki-light:#116329;--shiki-dark:#7ee787">div</span><span style="--shiki-light:#cf222e;--shiki-dark:#f97583">&gt;</span></span></code></pre>
+<pre class="shiki shiki-themes github-light github-dark" tabindex="0"><code><span class="line"><span style="--shiki-light:#cf222e;--shiki-dark:#f97583">&lt;</span><span style="--shiki-light:#116329;--shiki-dark:#7ee787">div</span> <span style="--shiki-light:#116329;--shiki-dark:#7ee787">id</span><span style="--shiki-light:#24292f;--shiki-dark:#c9d1d9">=</span><span style="--shiki-light:#0a3069;--shiki-dark:#a5d6ff">"tree"</span><span style="--shiki-light:#cf222e;--shiki-dark:#f97583">&gt;&lt;/</span><span style="--shiki-light:#116329;--shiki-dark:#7ee787">div</span><span style="--shiki-light:#cf222e;--shiki-dark:#f97583">&gt;</span></span></code></pre>
           </div>
         </div>
       </div>
@@ -35,8 +33,7 @@
       <div class="vp-code-group">
         <div class="blocks">
           <div class="language-js active">
-            <span class="lang">js</span>
-            <pre class="shiki shiki-themes github-light github-dark" tabindex="0"><code><span class="line"><span style="--shiki-light:#cf222e;--shiki-dark:#ff7b72">const</span><span style="--shiki-light:#24292f;--shiki-dark:#c9d1d9"> chart = </span><span style="--shiki-light:#cf222e;--shiki-dark:#ff7b72">new</span><span style="--shiki-light:#24292f;--shiki-dark:#c9d1d9"> OrgChart(document.getElementById(</span><span style="--shiki-light:#0a3069;--shiki-dark:#a5d6ff">"tree"</span><span style="--shiki-light:#24292f;--shiki-dark:#c9d1d9">), {</span></span>
+<pre class="shiki shiki-themes github-light github-dark" tabindex="0"><code><span class="line"><span style="--shiki-light:#cf222e;--shiki-dark:#ff7b72">const</span><span style="--shiki-light:#24292f;--shiki-dark:#c9d1d9"> chart = </span><span style="--shiki-light:#cf222e;--shiki-dark:#ff7b72">new</span><span style="--shiki-light:#24292f;--shiki-dark:#c9d1d9"> OrgChart(document.getElementById(</span><span style="--shiki-light:#0a3069;--shiki-dark:#a5d6ff">"tree"</span><span style="--shiki-light:#24292f;--shiki-dark:#c9d1d9">), {</span></span>
 <span class="line"><span style="--shiki-light:#24292f;--shiki-dark:#c9d1d9">    </span><span style="--shiki-light:#6639ba;--shiki-dark:#d2a8ff">nodeBinding</span><span style="--shiki-light:#24292f;--shiki-dark:#c9d1d9">: {</span></span>
 <span class="line"><span style="--shiki-light:#24292f;--shiki-dark:#c9d1d9">        </span><span style="--shiki-light:#6639ba;--shiki-dark:#d2a8ff">field_0</span><span style="--shiki-light:#24292f;--shiki-dark:#c9d1d9">: </span><span style="--shiki-light:#0a3069;--shiki-dark:#a5d6ff">"name"</span><span style="--shiki-light:#24292f;--shiki-dark:#c9d1d9">,</span></span>
 <span class="line"><span style="--shiki-light:#24292f;--shiki-dark:#c9d1d9">    }</span></span>
@@ -68,12 +65,10 @@
           </div>
           <div class="blocks">
             <div class="language-html active">
-              <span class="lang">html</span>
-              <pre class="shiki shiki-themes github-light github-dark" tabindex="0"><code><span class="line"><span style="--shiki-light:#cf222e;--shiki-dark:#f97583">&lt;</span><span style="--shiki-light:#116329;--shiki-dark:#7ee787">script</span> <span style="--shiki-light:#116329;--shiki-dark:#7ee787">src</span><span style="--shiki-light:#24292f;--shiki-dark:#c9d1d9">=</span><span style="--shiki-light:#0a3069;--shiki-dark:#a5d6ff">"path/to/orgchart.js"</span><span style="--shiki-light:#cf222e;--shiki-dark:#f97583">&gt;&lt;/</span><span style="--shiki-light:#116329;--shiki-dark:#7ee787">script</span><span style="--shiki-light:#cf222e;--shiki-dark:#f97583">&gt;</span></span></code></pre>
+<pre class="shiki shiki-themes github-light github-dark" tabindex="0"><code><span class="line"><span style="--shiki-light:#cf222e;--shiki-dark:#f97583">&lt;</span><span style="--shiki-light:#116329;--shiki-dark:#7ee787">script</span> <span style="--shiki-light:#116329;--shiki-dark:#7ee787">src</span><span style="--shiki-light:#24292f;--shiki-dark:#c9d1d9">=</span><span style="--shiki-light:#0a3069;--shiki-dark:#a5d6ff">"path/to/orgchart.js"</span><span style="--shiki-light:#cf222e;--shiki-dark:#f97583">&gt;&lt;/</span><span style="--shiki-light:#116329;--shiki-dark:#7ee787">script</span><span style="--shiki-light:#cf222e;--shiki-dark:#f97583">&gt;</span></span></code></pre>
             </div>
             <div class="language-js">
-              <span class="lang">html</span>
-              <pre class="shiki shiki-themes github-light github-dark" tabindex="0"><code><span class="line"><span style="--shiki-light:#cf222e;--shiki-dark:#f97583">&lt;</span><span style="--shiki-light:#116329;--shiki-dark:#7ee787">script</span> <span style="--shiki-light:#116329;--shiki-dark:#7ee787">src</span><span style="--shiki-light:#24292f;--shiki-dark:#c9d1d9">=</span><span style="--shiki-light:#0a3069;--shiki-dark:#a5d6ff">"path/to/orgchart-community.js"</span><span style="--shiki-light:#cf222e;--shiki-dark:#f97583">&gt;&lt;/</span><span style="--shiki-light:#116329;--shiki-dark:#7ee787">script</span><span style="--shiki-light:#cf222e;--shiki-dark:#f97583">&gt;</span></span></code></pre>
+<pre class="shiki shiki-themes github-light github-dark" tabindex="0"><code><span class="line"><span style="--shiki-light:#cf222e;--shiki-dark:#f97583">&lt;</span><span style="--shiki-light:#116329;--shiki-dark:#7ee787">script</span> <span style="--shiki-light:#116329;--shiki-dark:#7ee787">src</span><span style="--shiki-light:#24292f;--shiki-dark:#c9d1d9">=</span><span style="--shiki-light:#0a3069;--shiki-dark:#a5d6ff">"path/to/orgchart-community.js"</span><span style="--shiki-light:#cf222e;--shiki-dark:#f97583">&gt;&lt;/</span><span style="--shiki-light:#116329;--shiki-dark:#7ee787">script</span><span style="--shiki-light:#cf222e;--shiki-dark:#f97583">&gt;</span></span></code></pre>
 
             </div>
           </div>
@@ -89,12 +84,10 @@
           </div>
           <div class="blocks">
             <div class="language-ts active">
-              <span class="lang">ts</span>
-              <pre class="shiki shiki-themes github-light github-dark" tabindex="0"><code><span class="line">/// &lt;reference path="orgchart.d.ts" /&gt;</span></code></pre>
+<pre class="shiki shiki-themes github-light github-dark" tabindex="0"><code><span class="line">/// &lt;reference path="orgchart.d.ts" /&gt;</span></code></pre>
             </div>
             <div class="language-ts">
-              <span class="lang">ts</span>
-              <pre class="shiki shiki-themes github-light github-dark" tabindex="0"><code><span class="line">/// &lt;reference path="orgchart-community.d.ts" /&gt;</span></code></pre>
+<pre class="shiki shiki-themes github-light github-dark" tabindex="0"><code><span class="line">/// &lt;reference path="orgchart-community.d.ts" /&gt;</span></code></pre>
             </div>
           </div>
         </div>
@@ -103,8 +96,7 @@
       <div class="vp-code-group">
         <div class="blocks">
           <div class="language-html active">
-            <span class="lang">html</span>
-            <pre class="shiki shiki-themes github-light github-dark" tabindex="0"><code><span class="line"><span style="--shiki-light:#cf222e;--shiki-dark:#f97583">&lt;</span><span style="--shiki-light:#116329;--shiki-dark:#7ee787">div</span> <span style="--shiki-light:#116329;--shiki-dark:#7ee787">id</span><span style="--shiki-light:#24292f;--shiki-dark:#c9d1d9">=</span><span style="--shiki-light:#0a3069;--shiki-dark:#a5d6ff">"tree"</span><span style="--shiki-light:#cf222e;--shiki-dark:#f97583">&gt;&lt;/</span><span style="--shiki-light:#116329;--shiki-dark:#7ee787">div</span><span style="--shiki-light:#cf222e;--shiki-dark:#f97583">&gt;</span></span></code></pre>
+<pre class="shiki shiki-themes github-light github-dark" tabindex="0"><code><span class="line"><span style="--shiki-light:#cf222e;--shiki-dark:#f97583">&lt;</span><span style="--shiki-light:#116329;--shiki-dark:#7ee787">div</span> <span style="--shiki-light:#116329;--shiki-dark:#7ee787">id</span><span style="--shiki-light:#24292f;--shiki-dark:#c9d1d9">=</span><span style="--shiki-light:#0a3069;--shiki-dark:#a5d6ff">"tree"</span><span style="--shiki-light:#cf222e;--shiki-dark:#f97583">&gt;&lt;/</span><span style="--shiki-light:#116329;--shiki-dark:#7ee787">div</span><span style="--shiki-light:#cf222e;--shiki-dark:#f97583">&gt;</span></span></code></pre>
           </div>
         </div>
       </div>
@@ -113,8 +105,7 @@
       <div class="vp-code-group">
         <div class="blocks">
           <div class="language-js active">
-            <span class="lang">js</span>
-            <pre class="shiki shiki-themes github-light github-dark" tabindex="0"><code><span class="line"><span style="--shiki-light:#cf222e;--shiki-dark:#ff7b72">const</span><span style="--shiki-light:#24292f;--shiki-dark:#c9d1d9"> chart = </span><span style="--shiki-light:#cf222e;--shiki-dark:#ff7b72">new</span><span style="--shiki-light:#24292f;--shiki-dark:#c9d1d9"> OrgChart(document.getElementById(</span><span style="--shiki-light:#0a3069;--shiki-dark:#a5d6ff">"tree"</span><span style="--shiki-light:#24292f;--shiki-dark:#c9d1d9">), {</span></span>
+<pre class="shiki shiki-themes github-light github-dark" tabindex="0"><code><span class="line"><span style="--shiki-light:#cf222e;--shiki-dark:#ff7b72">const</span><span style="--shiki-light:#24292f;--shiki-dark:#c9d1d9"> chart = </span><span style="--shiki-light:#cf222e;--shiki-dark:#ff7b72">new</span><span style="--shiki-light:#24292f;--shiki-dark:#c9d1d9"> OrgChart(document.getElementById(</span><span style="--shiki-light:#0a3069;--shiki-dark:#a5d6ff">"tree"</span><span style="--shiki-light:#24292f;--shiki-dark:#c9d1d9">), {</span></span>
 <span class="line"><span style="--shiki-light:#24292f;--shiki-dark:#c9d1d9">    </span><span style="--shiki-light:#6639ba;--shiki-dark:#d2a8ff">nodeBinding</span><span style="--shiki-light:#24292f;--shiki-dark:#c9d1d9">: {</span></span>
 <span class="line"><span style="--shiki-light:#24292f;--shiki-dark:#c9d1d9">        </span><span style="--shiki-light:#6639ba;--shiki-dark:#d2a8ff">field_0</span><span style="--shiki-light:#24292f;--shiki-dark:#c9d1d9">: </span><span style="--shiki-light:#0a3069;--shiki-dark:#a5d6ff">"name"</span><span style="--shiki-light:#24292f;--shiki-dark:#c9d1d9">,</span></span>
 <span class="line"><span style="--shiki-light:#24292f;--shiki-dark:#c9d1d9">    }</span></span>
@@ -142,8 +133,7 @@
         </div>
         <div class="blocks">
           <div class="language-html active">
-            <span class="lang">html</span>
-            <pre class="shiki shiki-themes github-light github-dark" tabindex="0"><code><span class="line"><span style="--shiki-light:#cf222e;--shiki-dark:#f97583">&lt;</span><span style="--shiki-light:#116329;--shiki-dark:#7ee787">script</span> <span style="--shiki-light:#116329;--shiki-dark:#7ee787">type</span><span style="--shiki-light:#24292f;--shiki-dark:#c9d1d9">=</span><span style="--shiki-light:#0a3069;--shiki-dark:#a5d6ff">"module"</span><span style="--shiki-light:#cf222e;--shiki-dark:#f97583">&gt;</span></span>
+<pre class="shiki shiki-themes github-light github-dark" tabindex="0"><code><span class="line"><span style="--shiki-light:#cf222e;--shiki-dark:#f97583">&lt;</span><span style="--shiki-light:#116329;--shiki-dark:#7ee787">script</span> <span style="--shiki-light:#116329;--shiki-dark:#7ee787">type</span><span style="--shiki-light:#24292f;--shiki-dark:#c9d1d9">=</span><span style="--shiki-light:#0a3069;--shiki-dark:#a5d6ff">"module"</span><span style="--shiki-light:#cf222e;--shiki-dark:#f97583">&gt;</span></span>
   <span class="line"><span style="--shiki-light:#cf222e;--shiki-dark:#ff7b72">import</span><span style="--shiki-light:#24292f;--shiki-dark:#c9d1d9"> OrgChart </span><span style="--shiki-light:#cf222e;--shiki-dark:#ff7b72">from</span><span style="--shiki-light:#24292f;--shiki-dark:#c9d1d9"> </span><span style="--shiki-light:#0a3069;--shiki-dark:#a5d6ff">"https://cdn.balkan.app/orgchart.esm.js"</span><span style="--shiki-light:#24292f;--shiki-dark:#c9d1d9">;</span></span>
  
   <span class="line"><span style="--shiki-light:#cf222e;--shiki-dark:#ff7b72">const</span><span style="--shiki-light:#24292f;--shiki-dark:#c9d1d9"> chart = </span><span style="--shiki-light:#cf222e;--shiki-dark:#ff7b72">new</span><span style="--shiki-light:#24292f;--shiki-dark:#c9d1d9"> OrgChart(document.getElementById(</span><span style="--shiki-light:#0a3069;--shiki-dark:#a5d6ff">"tree"</span><span style="--shiki-light:#24292f;--shiki-dark:#c9d1d9">), {</span></span>
@@ -161,8 +151,7 @@
 </code></pre>
           </div>
           <div class="language-js">
-            <span class="lang">html</span>
-            <pre class="shiki shiki-themes github-light github-dark" tabindex="0"><code><span class="line"><span style="--shiki-light:#cf222e;--shiki-dark:#f97583">&lt;</span><span style="--shiki-light:#116329;--shiki-dark:#7ee787">script</span> <span style="--shiki-light:#116329;--shiki-dark:#7ee787">type</span><span style="--shiki-light:#24292f;--shiki-dark:#c9d1d9">=</span><span style="--shiki-light:#0a3069;--shiki-dark:#a5d6ff">"module"</span><span style="--shiki-light:#cf222e;--shiki-dark:#f97583">&gt;</span></span>
+<pre class="shiki shiki-themes github-light github-dark" tabindex="0"><code><span class="line"><span style="--shiki-light:#cf222e;--shiki-dark:#f97583">&lt;</span><span style="--shiki-light:#116329;--shiki-dark:#7ee787">script</span> <span style="--shiki-light:#116329;--shiki-dark:#7ee787">type</span><span style="--shiki-light:#24292f;--shiki-dark:#c9d1d9">=</span><span style="--shiki-light:#0a3069;--shiki-dark:#a5d6ff">"module"</span><span style="--shiki-light:#cf222e;--shiki-dark:#f97583">&gt;</span></span>
   <span class="line"><span style="--shiki-light:#cf222e;--shiki-dark:#ff7b72">import</span><span style="--shiki-light:#24292f;--shiki-dark:#c9d1d9"> OrgChart </span><span style="--shiki-light:#cf222e;--shiki-dark:#ff7b72">from</span><span style="--shiki-light:#24292f;--shiki-dark:#c9d1d9"> </span><span style="--shiki-light:#0a3069;--shiki-dark:#a5d6ff">"https://cdn.balkan.app/orgchart-community.esm.js"</span><span style="--shiki-light:#24292f;--shiki-dark:#c9d1d9">;</span></span>
   
   <span class="line"><span style="--shiki-light:#cf222e;--shiki-dark:#ff7b72">const</span><span style="--shiki-light:#24292f;--shiki-dark:#c9d1d9"> chart = </span><span style="--shiki-light:#cf222e;--shiki-dark:#ff7b72">new</span><span style="--shiki-light:#24292f;--shiki-dark:#c9d1d9"> OrgChart(document.getElementById(</span><span style="--shiki-light:#0a3069;--shiki-dark:#a5d6ff">"tree"</span><span style="--shiki-light:#24292f;--shiki-dark:#c9d1d9">), {</span></span>
@@ -186,8 +175,7 @@
       <div class="vp-code-group">
         <div class="blocks">
           <div class="language-html active">
-            <span class="lang">html</span>
-            <pre class="shiki shiki-themes github-light github-dark" tabindex="0"><code><span class="line"><span style="--shiki-light:#cf222e;--shiki-dark:#f97583">&lt;</span><span style="--shiki-light:#116329;--shiki-dark:#7ee787">div</span> <span style="--shiki-light:#116329;--shiki-dark:#7ee787">id</span><span style="--shiki-light:#24292f;--shiki-dark:#c9d1d9">=</span><span style="--shiki-light:#0a3069;--shiki-dark:#a5d6ff">"tree"</span><span style="--shiki-light:#cf222e;--shiki-dark:#f97583">&gt;&lt;/</span><span style="--shiki-light:#116329;--shiki-dark:#7ee787">div</span><span style="--shiki-light:#cf222e;--shiki-dark:#f97583">&gt;</span></span></code></pre>
+<pre class="shiki shiki-themes github-light github-dark" tabindex="0"><code><span class="line"><span style="--shiki-light:#cf222e;--shiki-dark:#f97583">&lt;</span><span style="--shiki-light:#116329;--shiki-dark:#7ee787">div</span> <span style="--shiki-light:#116329;--shiki-dark:#7ee787">id</span><span style="--shiki-light:#24292f;--shiki-dark:#c9d1d9">=</span><span style="--shiki-light:#0a3069;--shiki-dark:#a5d6ff">"tree"</span><span style="--shiki-light:#cf222e;--shiki-dark:#f97583">&gt;&lt;/</span><span style="--shiki-light:#116329;--shiki-dark:#7ee787">div</span><span style="--shiki-light:#cf222e;--shiki-dark:#f97583">&gt;</span></span></code></pre>
           </div>
         </div>
       </div>
@@ -211,8 +199,7 @@
         </div>
         <div class="blocks">
           <div class="language-html active">
-            <span class="lang">html</span>
-            <pre class="shiki shiki-themes github-light github-dark" tabindex="0"><code><span class="line"><span style="--shiki-light:#cf222e;--shiki-dark:#f97583">&lt;</span><span style="--shiki-light:#116329;--shiki-dark:#7ee787">script</span> <span style="--shiki-light:#116329;--shiki-dark:#7ee787">type</span><span style="--shiki-light:#24292f;--shiki-dark:#c9d1d9">=</span><span style="--shiki-light:#0a3069;--shiki-dark:#a5d6ff">"module"</span><span style="--shiki-light:#cf222e;--shiki-dark:#f97583">&gt;</span></span>
+<pre class="shiki shiki-themes github-light github-dark" tabindex="0"><code><span class="line"><span style="--shiki-light:#cf222e;--shiki-dark:#f97583">&lt;</span><span style="--shiki-light:#116329;--shiki-dark:#7ee787">script</span> <span style="--shiki-light:#116329;--shiki-dark:#7ee787">type</span><span style="--shiki-light:#24292f;--shiki-dark:#c9d1d9">=</span><span style="--shiki-light:#0a3069;--shiki-dark:#a5d6ff">"module"</span><span style="--shiki-light:#cf222e;--shiki-dark:#f97583">&gt;</span></span>
   <span class="line"><span style="--shiki-light:#cf222e;--shiki-dark:#ff7b72">import</span><span style="--shiki-light:#24292f;--shiki-dark:#c9d1d9"> OrgChart </span><span style="--shiki-light:#cf222e;--shiki-dark:#ff7b72">from</span><span style="--shiki-light:#24292f;--shiki-dark:#c9d1d9"> </span><span style="--shiki-light:#0a3069;--shiki-dark:#a5d6ff">"./path/to/orgchart.esm.js"</span><span style="--shiki-light:#24292f;--shiki-dark:#c9d1d9">;</span></span>
 
   <span class="line"><span style="--shiki-light:#cf222e;--shiki-dark:#ff7b72">const</span><span style="--shiki-light:#24292f;--shiki-dark:#c9d1d9"> chart = </span><span style="--shiki-light:#cf222e;--shiki-dark:#ff7b72">new</span><span style="--shiki-light:#24292f;--shiki-dark:#c9d1d9"> OrgChart(document.getElementById(</span><span style="--shiki-light:#0a3069;--shiki-dark:#a5d6ff">"tree"</span><span style="--shiki-light:#24292f;--shiki-dark:#c9d1d9">), {</span></span>
@@ -230,8 +217,7 @@
 <span class="line"><span style="--shiki-light:#cf222e;--shiki-dark:#f97583">&lt;/</span><span style="--shiki-light:#116329;--shiki-dark:#7ee787">script</span><span style="--shiki-light:#cf222e;--shiki-dark:#f97583">&gt;</span></span></code></pre>
           </div>
           <div class="language-js">
-            <span class="lang">html</span>
-            <pre class="shiki shiki-themes github-light github-dark" tabindex="0"><code><span class="line"><span style="--shiki-light:#cf222e;--shiki-dark:#f97583">&lt;</span><span style="--shiki-light:#116329;--shiki-dark:#7ee787">script</span> <span style="--shiki-light:#116329;--shiki-dark:#7ee787">type</span><span style="--shiki-light:#24292f;--shiki-dark:#c9d1d9">=</span><span style="--shiki-light:#0a3069;--shiki-dark:#a5d6ff">"module"</span><span style="--shiki-light:#cf222e;--shiki-dark:#f97583">&gt;</span></span>
+<pre class="shiki shiki-themes github-light github-dark" tabindex="0"><code><span class="line"><span style="--shiki-light:#cf222e;--shiki-dark:#f97583">&lt;</span><span style="--shiki-light:#116329;--shiki-dark:#7ee787">script</span> <span style="--shiki-light:#116329;--shiki-dark:#7ee787">type</span><span style="--shiki-light:#24292f;--shiki-dark:#c9d1d9">=</span><span style="--shiki-light:#0a3069;--shiki-dark:#a5d6ff">"module"</span><span style="--shiki-light:#cf222e;--shiki-dark:#f97583">&gt;</span></span>
   <span class="line"><span style="--shiki-light:#cf222e;--shiki-dark:#ff7b72">import</span><span style="--shiki-light:#24292f;--shiki-dark:#c9d1d9"> OrgChart </span><span style="--shiki-light:#cf222e;--shiki-dark:#ff7b72">from</span><span style="--shiki-light:#24292f;--shiki-dark:#c9d1d9"> </span><span style="--shiki-light:#0a3069;--shiki-dark:#a5d6ff">"./path/to/orgchart-community.esm.js"</span><span style="--shiki-light:#24292f;--shiki-dark:#c9d1d9">;</span></span>
   
   <span class="line"><span style="--shiki-light:#cf222e;--shiki-dark:#ff7b72">const</span><span style="--shiki-light:#24292f;--shiki-dark:#c9d1d9"> chart = </span><span style="--shiki-light:#cf222e;--shiki-dark:#ff7b72">new</span><span style="--shiki-light:#24292f;--shiki-dark:#c9d1d9"> OrgChart(document.getElementById(</span><span style="--shiki-light:#0a3069;--shiki-dark:#a5d6ff">"tree"</span><span style="--shiki-light:#24292f;--shiki-dark:#c9d1d9">), {</span></span>
@@ -254,8 +240,7 @@
       <div class="vp-code-group">
         <div class="blocks">
           <div class="language-html active">
-            <span class="lang">html</span>
-            <pre class="shiki shiki-themes github-light github-dark" tabindex="0"><code><span class="line"><span style="--shiki-light:#cf222e;--shiki-dark:#f97583">&lt;</span><span style="--shiki-light:#116329;--shiki-dark:#7ee787">div</span> <span style="--shiki-light:#116329;--shiki-dark:#7ee787">id</span><span style="--shiki-light:#24292f;--shiki-dark:#c9d1d9">=</span><span style="--shiki-light:#0a3069;--shiki-dark:#a5d6ff">"tree"</span><span style="--shiki-light:#cf222e;--shiki-dark:#f97583">&gt;&lt;/</span><span style="--shiki-light:#116329;--shiki-dark:#7ee787">div</span><span style="--shiki-light:#cf222e;--shiki-dark:#f97583">&gt;</span></span></code></pre>
+<pre class="shiki shiki-themes github-light github-dark" tabindex="0"><code><span class="line"><span style="--shiki-light:#cf222e;--shiki-dark:#f97583">&lt;</span><span style="--shiki-light:#116329;--shiki-dark:#7ee787">div</span> <span style="--shiki-light:#116329;--shiki-dark:#7ee787">id</span><span style="--shiki-light:#24292f;--shiki-dark:#c9d1d9">=</span><span style="--shiki-light:#0a3069;--shiki-dark:#a5d6ff">"tree"</span><span style="--shiki-light:#cf222e;--shiki-dark:#f97583">&gt;&lt;/</span><span style="--shiki-light:#116329;--shiki-dark:#7ee787">div</span><span style="--shiki-light:#cf222e;--shiki-dark:#f97583">&gt;</span></span></code></pre>
           </div>
         </div>
       </div>
@@ -273,14 +258,12 @@
         </div>
         <div class="blocks">
           <div class="language-bash active">
-            <span class="lang">bash</span>
-            <pre class="shiki shiki-themes github-light github-dark" tabindex="0"><code><span class="line">npm install balkan-orgchart-js</span>
+<pre class="shiki shiki-themes github-light github-dark" tabindex="0"><code><span class="line">npm install balkan-orgchart-js</span>
 <span class="line"># or with yarn:</span>
 <span class="line">yarn add balkan-orgchart-js</span></code></pre>
           </div>
           <div class="language-bash">
-            <span class="lang">bash</span>
-            <pre class="shiki shiki-themes github-light github-dark" tabindex="0"><code><span class="line">npm install balkan-orgchart-js-community</span>
+<pre class="shiki shiki-themes github-light github-dark" tabindex="0"><code><span class="line">npm install balkan-orgchart-js-community</span>
 <span class="line"># or with yarn:</span>
 <span class="line">yarn add balkan-orgchart-js-community</span></code></pre>
           </div>
@@ -296,12 +279,10 @@
         </div>
         <div class="blocks">
           <div class="language-js active">
-            <span class="lang">js</span>
-            <pre class="shiki shiki-themes github-light github-dark" tabindex="0"><code><span class="line"><span style="--shiki-light:#cf222e;--shiki-dark:#ff7b72">import</span><span style="--shiki-light:#24292f;--shiki-dark:#c9d1d9"> OrgChart </span><span style="--shiki-light:#cf222e;--shiki-dark:#ff7b72">from</span><span style="--shiki-light:#24292f;--shiki-dark:#c9d1d9"> </span><span style="--shiki-light:#0a3069;--shiki-dark:#a5d6ff">"balkan-orgchart-js"</span><span style="--shiki-light:#24292f;--shiki-dark:#c9d1d9">;</span></span></code></pre>
+<pre class="shiki shiki-themes github-light github-dark" tabindex="0"><code><span class="line"><span style="--shiki-light:#cf222e;--shiki-dark:#ff7b72">import</span><span style="--shiki-light:#24292f;--shiki-dark:#c9d1d9"> OrgChart </span><span style="--shiki-light:#cf222e;--shiki-dark:#ff7b72">from</span><span style="--shiki-light:#24292f;--shiki-dark:#c9d1d9"> </span><span style="--shiki-light:#0a3069;--shiki-dark:#a5d6ff">"balkan-orgchart-js"</span><span style="--shiki-light:#24292f;--shiki-dark:#c9d1d9">;</span></span></code></pre>
           </div>
           <div class="language-js">
-            <span class="lang">js</span>
-            <pre class="shiki shiki-themes github-light github-dark" tabindex="0"><code><span class="line"><span style="--shiki-light:#cf222e;--shiki-dark:#ff7b72">import</span><span style="--shiki-light:#24292f;--shiki-dark:#c9d1d9"> OrgChart </span><span style="--shiki-light:#cf222e;--shiki-dark:#ff7b72">from</span><span style="--shiki-light:#24292f;--shiki-dark:#c9d1d9"> </span><span style="--shiki-light:#0a3069;--shiki-dark:#a5d6ff">"balkan-orgchart-js-community"</span><span style="--shiki-light:#24292f;--shiki-dark:#c9d1d9">;</span></span></code></pre>
+<pre class="shiki shiki-themes github-light github-dark" tabindex="0"><code><span class="line"><span style="--shiki-light:#cf222e;--shiki-dark:#ff7b72">import</span><span style="--shiki-light:#24292f;--shiki-dark:#c9d1d9"> OrgChart </span><span style="--shiki-light:#cf222e;--shiki-dark:#ff7b72">from</span><span style="--shiki-light:#24292f;--shiki-dark:#c9d1d9"> </span><span style="--shiki-light:#0a3069;--shiki-dark:#a5d6ff">"balkan-orgchart-js-community"</span><span style="--shiki-light:#24292f;--shiki-dark:#c9d1d9">;</span></span></code></pre>
           </div>
         </div>
       </div>
@@ -310,8 +291,7 @@
       <div class="vp-code-group">
         <div class="blocks">
           <div class="language-html active">
-            <span class="lang">html</span>
-            <pre class="shiki shiki-themes github-light github-dark" tabindex="0"><code><span class="line"><span style="--shiki-light:#cf222e;--shiki-dark:#f97583">&lt;</span><span style="--shiki-light:#116329;--shiki-dark:#7ee787">div</span> <span style="--shiki-light:#116329;--shiki-dark:#7ee787">id</span><span style="--shiki-light:#24292f;--shiki-dark:#c9d1d9">=</span><span style="--shiki-light:#0a3069;--shiki-dark:#a5d6ff">"tree"</span><span style="--shiki-light:#cf222e;--shiki-dark:#f97583">&gt;&lt;/</span><span style="--shiki-light:#116329;--shiki-dark:#7ee787">div</span><span style="--shiki-light:#cf222e;--shiki-dark:#f97583">&gt;</span></span></code></pre>
+<pre class="shiki shiki-themes github-light github-dark" tabindex="0"><code><span class="line"><span style="--shiki-light:#cf222e;--shiki-dark:#f97583">&lt;</span><span style="--shiki-light:#116329;--shiki-dark:#7ee787">div</span> <span style="--shiki-light:#116329;--shiki-dark:#7ee787">id</span><span style="--shiki-light:#24292f;--shiki-dark:#c9d1d9">=</span><span style="--shiki-light:#0a3069;--shiki-dark:#a5d6ff">"tree"</span><span style="--shiki-light:#cf222e;--shiki-dark:#f97583">&gt;&lt;/</span><span style="--shiki-light:#116329;--shiki-dark:#7ee787">div</span><span style="--shiki-light:#cf222e;--shiki-dark:#f97583">&gt;</span></span></code></pre>
           </div>
         </div>
       </div>
@@ -320,8 +300,7 @@
       <div class="vp-code-group">
         <div class="blocks">
           <div class="language-js active">
-            <span class="lang">js</span>
-            <pre class="shiki shiki-themes github-light github-dark" tabindex="0"><code><span class="line"><span style="--shiki-light:#cf222e;--shiki-dark:#ff7b72">const</span><span style="--shiki-light:#24292f;--shiki-dark:#c9d1d9"> chart = </span><span style="--shiki-light:#cf222e;--shiki-dark:#ff7b72">new</span><span style="--shiki-light:#24292f;--shiki-dark:#c9d1d9"> OrgChart(document.getElementById(</span><span style="--shiki-light:#0a3069;--shiki-dark:#a5d6ff">"tree"</span><span style="--shiki-light:#24292f;--shiki-dark:#c9d1d9">), {</span></span>
+<pre class="shiki shiki-themes github-light github-dark" tabindex="0"><code><span class="line"><span style="--shiki-light:#cf222e;--shiki-dark:#ff7b72">const</span><span style="--shiki-light:#24292f;--shiki-dark:#c9d1d9"> chart = </span><span style="--shiki-light:#cf222e;--shiki-dark:#ff7b72">new</span><span style="--shiki-light:#24292f;--shiki-dark:#c9d1d9"> OrgChart(document.getElementById(</span><span style="--shiki-light:#0a3069;--shiki-dark:#a5d6ff">"tree"</span><span style="--shiki-light:#24292f;--shiki-dark:#c9d1d9">), {</span></span>
 <span class="line"><span style="--shiki-light:#24292f;--shiki-dark:#c9d1d9">    </span><span style="--shiki-light:#6639ba;--shiki-dark:#d2a8ff">nodeBinding</span><span style="--shiki-light:#24292f;--shiki-dark:#c9d1d9">: {</span></span>
 <span class="line"><span style="--shiki-light:#24292f;--shiki-dark:#c9d1d9">        </span><span style="--shiki-light:#6639ba;--shiki-dark:#d2a8ff">field_0</span><span style="--shiki-light:#24292f;--shiki-dark:#c9d1d9">: </span><span style="--shiki-light:#0a3069;--shiki-dark:#a5d6ff">"name"</span><span style="--shiki-light:#24292f;--shiki-dark:#c9d1d9">,</span></span>
 <span class="line"><span style="--shiki-light:#24292f;--shiki-dark:#c9d1d9">    }</span></span>
@@ -336,5 +315,107 @@
         </div>
       </div>
     </Tab>
-  </Tabs>
+    </Tabs>
+  </div>
 </template>
+
+<script setup>
+import { nextTick, onMounted, ref } from "vue";
+
+const rootEl = ref(null);
+
+const fallbackCopy = (text) => {
+  const textarea = document.createElement("textarea");
+  textarea.value = text;
+  textarea.setAttribute("readonly", "");
+  textarea.style.position = "absolute";
+  textarea.style.left = "-9999px";
+  document.body.appendChild(textarea);
+  textarea.select();
+  document.execCommand("copy");
+  document.body.removeChild(textarea);
+};
+
+const showCopiedState = (button) => {
+  const originalText = button.textContent;
+  button.textContent = "Copied";
+  button.classList.add("copied");
+
+  window.setTimeout(() => {
+    button.textContent = originalText;
+    button.classList.remove("copied");
+  }, 1200);
+};
+
+const addCopyButtons = () => {
+  if (!rootEl.value) return;
+
+  const codeBlocks = rootEl.value.querySelectorAll("pre.shiki");
+  codeBlocks.forEach((pre) => {
+    if (pre.querySelector(".copy-code-button")) return;
+
+    const button = document.createElement("button");
+    button.type = "button";
+    button.className = "copy-code-button";
+    button.textContent = "Copy";
+    button.setAttribute("aria-label", "Copy code");
+
+    button.addEventListener("click", async () => {
+      const codeElement = pre.querySelector("code");
+      if (!codeElement) return;
+
+      const codeText = codeElement.innerText.replace(/\n$/, "");
+
+      try {
+        if (navigator.clipboard?.writeText) {
+          await navigator.clipboard.writeText(codeText);
+        } else {
+          fallbackCopy(codeText);
+        }
+
+        showCopiedState(button);
+      } catch {
+        fallbackCopy(codeText);
+        showCopiedState(button);
+      }
+    });
+
+    pre.appendChild(button);
+  });
+};
+
+onMounted(async () => {
+  await nextTick();
+  addCopyButtons();
+});
+</script>
+
+<style scoped>
+.getting-started-tabs :deep(pre.shiki) {
+  position: relative;
+}
+
+.getting-started-tabs :deep(.copy-code-button) {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  border: 1px solid var(--vp-c-divider);
+  background: var(--vp-c-bg-soft);
+  color: var(--vp-c-text-1);
+  border-radius: 6px;
+  font-size: 12px;
+  line-height: 1;
+  padding: 6px 9px;
+  cursor: pointer;
+  z-index: 2;
+}
+
+.getting-started-tabs :deep(.copy-code-button:hover) {
+  background: var(--vp-c-bg-alt);
+}
+
+.getting-started-tabs :deep(.copy-code-button.copied) {
+  color: var(--vp-c-brand-1);
+  border-color: var(--vp-c-brand-1);
+}
+</style>
