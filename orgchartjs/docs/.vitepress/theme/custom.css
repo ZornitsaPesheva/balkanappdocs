@@ -381,7 +381,7 @@ a.btn-blue:hover {
 /* CE badge in sidebar */
 .badge-ce {
   display: inline-block;
-  padding: 1px 6px;
+  padding: 1px 6px 0 6px;
   margin-left: 6px;
   font-size: 11px;
   font-weight: 600;

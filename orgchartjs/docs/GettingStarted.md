@@ -66,6 +66,6 @@ Use **onUpdateNode** to save changes in the database.
 
 [Here](https://code.balkan.app/update-database#JS) is an example showing how to update the database.
 
-For more details, see our **Server Side Implementation** doc page.
+For more details, see our **[Server Side Implementation](./GitHub.md)** doc page.
 
 

@@ -44,25 +44,25 @@ export default defineConfig({
               text: 'Templates / CSS',
               collapsed: true,
               items: [
-                { text: 'Predefined Templates <span class="badge-ce" title="Available in community edition">CE</span>', link: '/PredefinedTemplates' },
-                { text: 'Custom Templates <span class="badge-ce" title="Available in community edition">CE</span>', link: '/CreatingCustomTemplate' },
-                { text: 'Multiple Templates <span class="badge-ce" title="Available in community edition">CE</span>', link: '/MultipleTemplates' },
-                { text: 'CSS customization <span class="badge-ce" title="Available in community edition">CE</span>', link: '/CSSCustomization' }
+                { text: 'Predefined Templates <span class="badge-ce" title="Available in Community Edition">CE</span>', link: '/PredefinedTemplates' },
+                { text: 'Custom Templates <span class="badge-ce" title="Available in Community Edition">CE</span>', link: '/CreatingCustomTemplate' },
+                { text: 'Multiple Templates <span class="badge-ce" title="Available in Community Edition">CE</span>', link: '/MultipleTemplates' },
+                { text: 'CSS customization <span class="badge-ce" title="Available in Community Edition">CE</span>', link: '/CSSCustomization' }
               ]
             },
             {
               text: 'Fields',
               collapsed: true,
               items: [
-                { text: 'Field definitions <span class="badge-ce" title="Available in community edition">CE</span>', link: '/Fields' },
-                { text: 'Text Overflow <span class="badge-ce" title="Available in community edition">CE</span>', link: '/TextOverFlow' }
+                { text: 'Field definitions <span class="badge-ce" title="Available in Community Edition">CE</span>', link: '/Fields' },
+                { text: 'Text Overflow <span class="badge-ce" title="Available in Community Edition">CE</span>', link: '/TextOverFlow' }
               ]
             },
             {
               text: 'Links',
               collapsed: true,
               items: [
-                { text: 'Main Link <span class="badge-ce" title="Available in community edition">CE</span>', link: '/Link' },
+                { text: 'Main Link <span class="badge-ce" title="Available in Community Edition">CE</span>', link: '/Link' },
                 { text: 'Slink', link: '/Slink' },
                 { text: 'Clink', link: '/Clink' }
               ]
@@ -110,30 +110,30 @@ export default defineConfig({
                 { text: 'Scale and Padding', link: '/ScaleAndPadding' },
                 { text: 'Orientation', link: '/Orientation' },
                 { text: 'Navigation', link: '/Navigation' },
-                { text: 'Keyboard Navigation <span class="badge-ce" title="Available in community edition">CE</span>', link: '/KeyNavigation' }
+                { text: 'Keyboard Navigation <span class="badge-ce" title="Available in Community Edition">CE</span>', link: '/KeyNavigation' }
               ]
             },
             {
               text: 'Features',
               collapsed: true,
               items: [
-                { text: 'Expand / Collapse <span class="badge-ce" title="Available in community edition">CE</span>', link: '/ExpandCollapse' },
+                { text: 'Expand / Collapse <span class="badge-ce" title="Available in Community Edition">CE</span>', link: '/ExpandCollapse' },
                 { text: 'Drag and Drop', link: '/DragAndDrop' },
-                { text: 'Minimize / Maximize <span class="badge-ce" title="Available in community edition">CE</span>', link: '/MinMax' },
-                { text: 'Dotted Line <span class="badge-ce" title="Available in community edition">CE</span>', link: '/DottedLine' }
+                { text: 'Minimize / Maximize <span class="badge-ce" title="Available in Community Edition">CE</span>', link: '/MinMax' },
+                { text: 'Dotted Line <span class="badge-ce" title="Available in Community Edition">CE</span>', link: '/DottedLine' }
               ]
             },
             {
               text: 'Other',
               collapsed: true,
               items: [
-                { text: 'Node (API) <span class="badge-ce" title="Available in community edition">CE</span>', link: '/NodeAPI' },
-                { text: 'Tags <span class="badge-ce" title="Available in community edition">CE</span>', link: '/Tags' },
+                { text: 'Node (API) <span class="badge-ce" title="Available in Community Edition">CE</span>', link: '/NodeAPI' },
+                { text: 'Tags <span class="badge-ce" title="Available in Community Edition">CE</span>', link: '/Tags' },
                 { text: 'State', link: '/State' },
-                { text: 'Performance <span class="badge-ce" title="Available in community edition">CE</span>', link: '/Performance' },
-                { text: 'Server Side Examples <span class="badge-ce" title="Available in community edition">CE</span>', link: '/GitHub' },
-                { text: 'Salesforce Integration <span class="badge-ce" title="Available in community edition">CE</span>', link: '/Salesforce' },
-                { text: 'How to create OrgChart JS programmatically (API) <span class="badge-ce" title="Available in community edition">CE</span>', link: '/CreateProgrammatically' },
+                { text: 'Performance <span class="badge-ce" title="Available in Community Edition">CE</span>', link: '/Performance' },
+                { text: 'Server Side Examples <span class="badge-ce" title="Available in Community Edition">CE</span>', link: '/GitHub' },
+                { text: 'Salesforce Integration <span class="badge-ce" title="Available in Community Edition">CE</span>', link: '/Salesforce' },
+                { text: 'How to create OrgChart JS programmatically (API) <span class="badge-ce" title="Available in Community Edition">CE</span>', link: '/CreateProgrammatically' },
                 { text: 'Use Cases', link: '/UseCases' }
               ]
             }
