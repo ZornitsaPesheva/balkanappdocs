@@ -189,8 +189,8 @@
       <ol>
         <li>Download the latest version of OrgChart JS from the <a href="https://balkan.app/OrgChartJS/Download" target="_blank">Download page</a>.</li>
         <li>Extract the archive and keep the module files in your project.</li>
-      </ol>
-      <div class="vp-code-group">
+      <li>Add code:
+ <div class="vp-code-group">
         <div class="tabs">
           <input type="radio" name="group-downloaded-module" id="tab-downloaded-module-orgchart" checked>
           <label data-title="Module" for="tab-downloaded-module-orgchart">Free Trial and Commercial Licenses</label>
@@ -244,9 +244,20 @@
           </div>
         </div>
       </div>
-
+      </li>
+     <li>
+      <div>Start on a Server</div>
+      If you have Node.js, you can start a local server with the following command:
+      <div class="vp-code-group">
+        <div class="blocks">
+          <div class="language-bash active">
+<pre class="shiki shiki-themes github-light github-dark" tabindex="0"><code><span class="line">npx serve</span></code></pre>
+          </div>
+        </div>
+      </div>
+     </li>
+</ol>
     </Tab>
-
     <Tab name="npm" label="npm">
       <h3>Install via package manager</h3>
       <div class="vp-code-group">
